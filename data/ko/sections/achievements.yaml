@@ -1,0 +1,19 @@
+section:
+  name: 수상 및 성과
+  id: achievements
+  enable: true
+  weight: 10
+  showOnNavbar: true
+achievements:
+  - title: 최우수 발표자
+    image: /images/sections/achievements/presenter.jpg
+    summary: 2020년 엑스와이지 학회에서 최우수 발표자로 선정되었습니다.
+  - title: 우승
+    image: /images/sections/achievements/sport.jpg
+    summary: 2020년 도시 대항 자전거 대회에서 우승했습니다.
+  - title: 졸업
+    image: /images/sections/achievements/graduation-cap.jpg
+    summary: 엑스와이지 대학교에서 컴퓨터공학 학사 학위를 받았습니다.
+  - title: 논문상 수상
+    image: /images/sections/achievements/woman-winner.jpg
+    summary: 2020년 전기공학 학회에서 최우수 논문상을 받았습니다.

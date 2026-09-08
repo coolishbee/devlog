@@ -1,0 +1,6 @@
+// 작은 화면에서 경력 타임라인의 원형 표시가 가로 스크롤을 만들지 않게 합니다.
+@media (max-width: 575.98px) {
+  .experiences-section {
+    overflow-x: clip;
+  }
+}

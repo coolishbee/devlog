@@ -1,0 +1,111 @@
+# 테마의 기본 번역에서 빠진 문구까지 포함합니다.
+[home]
+other = "홈"
+[posts]
+other = "글"
+[toc_heading]
+other = "목차"
+[tags]
+other = "태그"
+[categories]
+other = "분류"
+[at]
+other = "·"
+[resume]
+other = "이력서"
+[navigation]
+other = "바로가기"
+[contact_me]
+other = "연락처"
+[email]
+other = "이메일"
+[phone]
+other = "전화"
+[newsletter_text]
+other = "이메일로 새 소식을 받아보세요"
+[newsletter_input_placeholder]
+other = "이메일을 입력하세요"
+[newsletter_warning]
+other = "이메일 주소를 입력하면 이 사이트의 소식 수신에 동의하는 것입니다."
+[submit]
+other = "제출"
+[hugoAttributionText]
+other = "제작 도구"
+[prev]
+other = "이전"
+[next]
+other = "다음"
+[share_on]
+other = "공유하기"
+[improve_this_page]
+other = "이 페이지 수정하기"
+[out_of]
+other = "/"
+[publications]
+other = "논문"
+[taken_courses]
+other = "이수 과목"
+[course_name]
+other = "과목명"
+[total_credit]
+other = "만점"
+[obtained_credit]
+other = "취득 평점"
+[extracurricular_activities]
+other = "교내외 활동"
+[show_more]
+other = "더 보기"
+[show_less]
+other = "접기"
+[responsibilities]
+other = "주요 업무"
+[present]
+other = "현재"
+[comments_javascript]
+other = "댓글을 보려면 자바스크립트를 활성화하세요."
+[comments_by]
+other = "댓글 제공"
+[read]
+other = "읽기"
+[project_star]
+other = "별표"
+[project_details]
+other = "자세히 보기"
+[err_404]
+other = "요청하신 페이지를 찾을 수 없습니다."
+[more]
+other = "더 보기"
+[view_certificate]
+other = "수료증 보기"
+[notes]
+other = "노트"
+[disclaimer_text]
+other = "책임 고지"
+[search]
+other = "검색"
+[minute]
+other = "분"
+[pdf_page]
+other = "페이지"
+[pdf_previous]
+other = "이전"
+[pdf_download]
+other = "문서 내려받기"
+[search_empty]
+other = "검색할 단어나 문장을 입력하세요."
+[search_no_matches]
+other = "검색 결과가 없습니다."
+[search_error]
+other = "검색 정보를 불러오지 못했습니다. 다시 시도해 주세요."
+[card_image]
+other = "글 대표 이미지"
+[theme_dark]
+other = "어두운 화면"
+[theme_light]
+other = "밝은 화면"
+[theme_system]
+other = "기기 설정 따르기"
+[theme_select]
+other = "화면 모드 선택"
+[language_select]
+other = "언어 선택"

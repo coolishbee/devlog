@@ -1,0 +1,55 @@
+section:
+  name: 경력
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+experiences:
+  - company:
+      name: 예제 주식회사
+      url: https://www.example.com
+      location: 다카 지사
+      logo: /images/sections/experiences/company1.jpg
+      overview: 클라우드 환경을 위한 개발로 잘 알려진 회사입니다. 쿠버네티스를 위한 도구를 만듭니다.
+    positions:
+      - designation: 선임 소프트웨어 엔지니어
+        start: 2019년 11월
+        responsibilities:
+          - 예제 작업을 수행하는 도구를 설계하고 개발했습니다.
+          - 쿠버네티스 볼륨, 데이터베이스와 클러스터 리소스 정의를 백업하는 재해 복구 도구 [엑스툴](https://www.example.com)을 설계·개발·관리했습니다.
+          - 백엔드 개발팀을 이끌었습니다.
+      - designation: 주니어 소프트웨어 엔지니어
+        start: 2017년 11월
+        end: 2019년 10월
+        responsibilities:
+          - 예제 도구의 기능을 구현하고 테스트했습니다.
+          - 도구를 사용하는 고객을 지원했습니다.
+          - 프로젝트에 필요한 기술을 학습했습니다.
+  - company:
+      name: 프리예제 주식회사
+      url: https://www.example.com
+      location: 가상의 지역
+      logo: /images/sections/experiences/company2.jpg
+      overview: 예제 주식회사에 입사하기 전에 경험을 쌓은 회사입니다. 경력 화면을 보여주기 위한 예제입니다.
+    positions:
+      - designation: 소프트웨어 엔지니어
+        start: 2016년 3월
+        end: 2017년 5월
+        responsibilities:
+          - 다양한 예제 코드를 작성했습니다.
+          - 여러 예제를 읽고 분석했습니다.
+          - 다양한 예제 영상을 살펴보았습니다.
+  - company:
+      name: 인턴 집계 회사
+      url: https://www.example.com
+      location: 인턴의 나라
+      logo: /images/sections/experiences/company3.jpg
+      overview: 전 세계 인턴 엔지니어의 수를 집계하는 가상의 회사입니다.
+    positions:
+      - designation: 인턴
+        start: 2015년 6월
+        end: 2016년 1월
+        responsibilities:
+          - 많은 인턴의 수를 집계했습니다.
+          - 더 많은 인턴의 수를 집계했습니다.
+          - 저 자신도 인턴으로 집계했습니다.

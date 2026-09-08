@@ -1,0 +1,51 @@
+section:
+  name: 프로젝트
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+buttons:
+  - name: 전체
+    filter: all
+  - name: 실무
+    filter: 실무
+  - name: 학술
+    filter: 학술
+  - name: 취미
+    filter: 취미
+projects:
+  - name: 쿠버네티스
+    logo: /images/sections/projects/kubernetes.png
+    role: 기여자
+    timeline: 2018년 3월 - 현재
+    repo: https://github.com/kubernetes/kubernetes
+    summary: 운영 환경을 위한 컨테이너 배치와 관리 시스템입니다.
+    tags: [실무, 쿠버네티스, 클라우드]
+  - name: 텐서플로
+    logo: /images/sections/projects/tensorflow.png
+    role: 개발자
+    timeline: 2018년 6월 - 현재
+    repo: https://github.com/tensorflow/tensorflow
+    summary: 누구나 사용할 수 있는 오픈 소스 기계 학습 프레임워크입니다.
+    tags: [실무, 기계 학습]
+  - name: 학술 논문 예제
+    role: 팀 리더
+    timeline: 2017년 1월 - 2017년 11월
+    url: https://www.example.com
+    summary: 학술 프로젝트를 소개하는 예제입니다. 연구 배경과 목표, 진행 과정, 주요 결과를 이곳에 정리할 수 있습니다. 함께한 팀과 자신의 역할을 설명하고 자세한 자료로 연결합니다.
+    tags: [학술, 사물 인터넷]
+  - name: 노코드
+    logo: /images/sections/projects/no-code.png
+    role: 아무것도 하지 않음
+    timeline: 2019년 10월 - 2019년 12월
+    repo: https://github.com/kelseyhightower/nocode
+    summary: 안전하고 신뢰할 수 있는 애플리케이션을 만드는 최고의 방법. 아무것도 작성하지 않고 어디에도 배포하지 않습니다.
+    tags: [취미, 재미]
+  - name: 토하
+    logo: /images/sections/projects/toha.png
+    image: /images/sections/projects/toha_website.png
+    role: 제작자
+    timeline: 2019년 6월 - 현재
+    repo: https://github.com/hossainemruz/toha
+    summary: 개인 포트폴리오를 위한 휴고 테마입니다.
+    tags: [취미, 휴고, 테마, 실무]

@@ -1,0 +1,6 @@
+{{- /* 공용 파일은 언어 경로 없이 사이트의 배포 경로를 사용합니다. */ -}}
+{{- $url := . -}}
+{{- if not (findRE `^([a-zA-Z][a-zA-Z0-9+.-]*:|//|#)` $url) -}}
+  {{- $url = strings.TrimPrefix "/" $url | relURL -}}
+{{- end -}}
+{{- return $url -}}

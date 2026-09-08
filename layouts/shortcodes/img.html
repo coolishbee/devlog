@@ -1,0 +1,7 @@
+<img src="{{ partial "helpers/site-resource-url.html" (.Get "src") }}"
+  {{ with .Get "title" }}alt="{{ . }}"{{ end }}
+  {{ with .Get "width" }}width="{{ . }}"{{ end }}
+  {{ with .Get "height" }}height="{{ . }}"{{ end }}
+  {{ with .Get "float" }}style="float: {{ . }};"{{ end }}
+  {{ with .Get "align" }}class="{{ . }}"{{ end }}
+>

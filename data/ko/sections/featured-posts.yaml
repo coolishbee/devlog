@@ -1,0 +1,10 @@
+section:
+  name: 추천 글
+  id: featured-posts
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  hideTitle: false
+posts:
+  - markdown-sample
+  - shortcodes

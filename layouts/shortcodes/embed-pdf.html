@@ -1,0 +1,24 @@
+{{ $url := partial "helpers/site-resource-url.html" (.Get "src") }}
+<div class="pdf-viewer" data-url="{{ $url }}"
+  data-hide-paginator="{{ .Get "hidePaginator" | default "false" }}"
+  data-hide-loader="{{ .Get "hideLoader" | default "false" }}"
+  data-page-num="{{ .Get "renderPageNum" | default "1" }}">
+  <div class="paginator">
+    <div class="page-number-indicator">
+      <span>{{ i18n "pdf_page" }}: <span class="page-num"></span> / <span class="page-count"></span></span>
+    </div>
+    <div class="next-prev-btn">
+      <button class="prev btn btn-sm btn-info">{{ i18n "pdf_previous" }}</button>
+      <button class="next btn btn-sm btn-info">{{ i18n "next" }}</button>
+    </div>
+    <div class="download-btn">
+      <a href="{{ $url }}" download class="btn btn-sm btn-info download-pdf-btn">
+        <i class="fas fa-download"></i> {{ i18n "pdf_download" }}
+      </a>
+    </div>
+  </div>
+  <div class="embed-pdf-container">
+    <div class="loading-wrapper"><div class="loading"></div></div>
+    <canvas class="pdf-canvas"></canvas>
+  </div>
+</div>

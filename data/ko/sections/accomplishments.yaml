@@ -1,0 +1,35 @@
+section:
+  name: 수료 과정
+  id: accomplishments
+  enable: true
+  weight: 9
+  showOnNavbar: true
+accomplishments:
+  - name: 리눅스 재단 시스템 관리자 과정
+    timeline: 2018년 3월 - 2019년 3월
+    organization:
+      name: 리눅스 재단
+      url: https://www.linuxfoundation.org
+    courseOverview: 네트워크, 저장소, 보안, 유지보수, 기록과 모니터링, 애플리케이션 생명주기, 문제 해결과 기본 인터페이스 객체 등 핵심 개념을 이해하는 과정입니다. 최종 사용자를 위한 기본 활용 사례를 구성하는 능력도 기를 수 있습니다.
+    certificateURL: https://example.com
+  - name: 기계 학습
+    timeline: 2020년 6월 - 2021년 1월
+    organization:
+      name: 코세라
+      url: https://www.coursera.org
+    courseOverview: 기계 학습, 데이터 마이닝과 통계적 패턴 인식을 폭넓게 소개합니다. 지도 학습의 모수·비모수 알고리즘, 서포트 벡터 머신과 신경망을 다루며, 비지도 학습의 군집화·차원 축소·추천 시스템·심층 학습을 학습합니다. 편향과 분산 이론을 비롯한 기계 학습의 실무 활용법도 살펴봅니다.
+    certificateURL: https://example.com
+  - name: 시스템 설계 면접 이해하기
+    timeline: 2018년 1월 - 2018년 9월
+    organization:
+      name: 에듀커티브
+      url: https://www.educative.io
+    courseOverview: 시스템 설계 면접을 준비하는 종합 과정입니다. 구글, 페이스북, 마이크로소프트와 아마존에서 일한 채용 담당자들이 만들었습니다. 주요 기업에서 반복해서 등장하는 질문을 통해 시스템 설계 문제에 접근하는 방법을 익힙니다.
+    certificateURL: https://example.com
+  - name: 고 언어 다중 스레드 프로그래밍 익히기
+    timeline: 2017년 11월 - 2018년 3월
+    organization:
+      name: 유데미
+      url: https://www.udemy.com
+    courseOverview: 고 언어로 반응성이 좋고 성능이 뛰어난 애플리케이션을 만드는 방법을 배웁니다. 동시성과 병렬성을 활용하는 프로그램을 개발하고, 심화된 다중 스레드 주제를 통해 프로그래밍 역량을 높입니다.
+    certificateURL: https://example.com

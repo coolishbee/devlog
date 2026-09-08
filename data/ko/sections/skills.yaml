@@ -1,0 +1,56 @@
+section:
+  name: 기술
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  filter: true
+buttons:
+  - name: 전체
+    filter: all
+  - name: 기초
+    filter: basic
+  - name: 언어
+    filter: language
+  - name: 컨테이너
+    filter: container
+  - name: 기타
+    filter: others
+skills:
+  - name: 쿠버네티스
+    logo: /images/sections/skills/kubernetes.png
+    summary: 쿠버네티스에서 애플리케이션을 배포하고 관리할 수 있습니다. 사용자 정의 리소스를 위한 컨트롤러를 작성한 경험이 있습니다.
+    categories: [container]
+    url: https://kubernetes.io/
+  - name: 고 언어 개발
+    logo: /images/sections/skills/go.png
+    summary: 실무에서 주로 사용하는 언어입니다. 확장성과 테스트 용이성을 갖추고 유지보수가 쉬운 프로그램을 작성할 수 있습니다.
+    categories: [basic, language]
+    url: https://golang.org/
+  - name: 클라우드 컴퓨팅
+    logo: /images/sections/skills/cloud.png
+    summary: 구글 클라우드, 아마존 웹 서비스, 애저 등 주요 클라우드 환경에서 작업한 경험이 있습니다.
+    categories: [others]
+  - name: 도커
+    logo: /images/sections/skills/docker.svg
+    summary: 대부분의 프로그램을 컨테이너로 제공합니다. 여러 단계와 다양한 아키텍처를 지원하는 빌드 과정을 구성한 경험이 있습니다.
+    categories: [container]
+    url: https://www.docker.com/
+  - name: 프로메테우스
+    logo: /images/sections/skills/prometheus.png
+    summary: 지표 수집 환경을 설치하고 구성할 수 있습니다. 지표 쿼리, 알림 관리와 지표 수집기 개발 경험이 있습니다.
+    categories: [basic]
+    url: https://prometheus.io/
+  - name: 리눅스
+    logo: /images/sections/skills/linux.png
+    summary: 주 운영체제로 사용합니다. 배시와 셸 스크립트를 작성할 수 있습니다.
+    categories: [others]
+  - name: 깃
+    logo: /images/sections/skills/git.png
+    summary: 깃 기반 개발에 익숙하며 주로 깃허브를 사용합니다. 깃랩을 사용한 협업 경험도 있습니다.
+    categories: [basic]
+    url: https://git-scm.com/
+  - name: C++
+    logo: /images/sections/skills/c++.png
+    summary: 기본 문법을 알고 있으며 알고리즘 대회와 문제 해결에 활용했습니다.
+    categories: [basic, language]

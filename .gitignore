@@ -1,0 +1,15 @@
+# 생성 결과와 의존성
+/public/
+/resources/
+/node_modules/
+/.hugo_build.lock
+/assets/jsconfig.json
+/.cache/
+/.tools/
+
+# 개인 설정과 인증 정보
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
