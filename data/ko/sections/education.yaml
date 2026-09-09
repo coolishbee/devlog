@@ -5,89 +5,25 @@ section:
   enable: true
   weight: 4
   showOnNavbar: true
+
 degrees:
-  - name: 양자 암호학 박사
-    icon: fa-microscope
-    timeframe: 2016-2020
+  - name: 게임 프로그래밍 1년 과정 수료
+    icon: fa-code
+    timeframe: 2011-2012
     institution:
-      name: 에이비씨 공과대학교
-      url: "#"
-      logo: /images/sections/education/tech_college.png
-    grade:
-      scale: 평점
-      achieved: 3.6
-      outOf: 4
-    publications:
-      - title: 양자 암호학의 기초와 응용에 관한 예제 논문
-        url: "#"
-      - title: 안전한 통신 체계를 위한 예제 연구
-        url: "#"
-      - title: 정보 보호 기술을 다루는 예제 논문
-        url: "#"
-  - name: 컴퓨터공학 학사
+      name: 게임스쿨
+    extracurricularActivities:
+      - C, C++, WinAPI, MFC, TCP/IP 등 프로그래밍 기초를 학습했습니다.
+      - DirectX 3D, Irrlicht Engine, Unity 3, Cocos2d-x를 활용한 게임 개발 과정을 이수했습니다.
+
+  - name: 게임소프트웨어학과 학사
     icon: fa-graduation-cap
-    timeframe: 2012-2016
+    timeframe: 2003-2012
     institution:
-      name: 엑스와이지 대학교
-      url: "#"
-      logo: /images/sections/education/university.jpg
-    grade:
-      scale: 평점
-      achieved: 3.5
-      outOf: 4
-    takenCourses:
-      showGrades: true
-      collapseAfter: 3
-      courses:
-        - name: 자료구조와 알고리즘
-          achieved: 3.75
-          outOf: 4
-        - name: 네트워크 보안
-          achieved: 3.8
-          outOf: 4
-        - name: 운영체제
-          achieved: 3.5
-          outOf: 4
-        - name: 인공지능
-          achieved: 3.75
-          outOf: 4
-    publications:
-      - title: 컴퓨터공학의 기초와 응용에 관한 예제 논문
-        url: "#"
-      - title: 소프트웨어 개발 방법을 다루는 예제 연구
-        url: "#"
+      name: 극동대학교
     extracurricularActivities:
-      - 전공 학술 동아리에서 활동했습니다.
-      - 동료들과 함께 공동 프로젝트를 진행했습니다.
-      - 교내 행사와 기술 발표에 참여했습니다.
-      - 다양한 협업 경험을 쌓았습니다.
+      - 자료구조, 알고리즘, 네트워크, 그래픽스와 C, C++, C# 프로그래밍을 학습했습니다.
+      - 게임 시나리오와 기획 과정을 이수했습니다.
     customSections:
-      - name: 졸업 논문
-        content: 컴퓨터공학의 기초와 응용을 다룬 예제 논문입니다.
-      - name: 지도 교수
-        content: 지도 교수 정보를 표시하는 예제입니다.
-  - name: 고등학교 졸업
-    icon: fa-university
-    timeframe: 2010-2012
-    institution:
-      name: 엠에스티 과학학교
-      url: "#"
-      logo: /images/sections/education/science_college.png
-    grade:
-      scale: 평점
-      achieved: 5
-      outOf: 5
-    extracurricularActivities:
-      - 과학 동아리에서 활동했습니다.
-      - 동료들과 공동 과제를 수행했습니다.
-      - 교내 행사와 발표에 참여했습니다.
-      - 여러 분야의 학습 경험을 쌓았습니다.
-  - name: 중등학교 졸업
-    icon: fa-school
-    timeframe: 2005-2010
-    institution:
-      name: 제이케이 과학학교
-    grade:
-      scale: 평점
-      achieved: 4.5
-      outOf: 5
+      - name: 졸업 작품
+        content: Objective-C로 iPhone용 2D 디펜스 게임을 개발했습니다.

@@ -1,16 +1,13 @@
-name: 존 도
-nickname: 존
+name: 천현철
+nickname: 천현철
 greeting: 안녕하세요, 저는
 image: images/author/john.png
 contactInfo:
-  email: johndoe@example.com
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
-  researchgate: john-doe
+  email: chc3484@gmail.com
+  github: coolishbee
 summary:
-  - 저는 개발자입니다
-  - 개발과 운영을 함께합니다
-  - 서버를 다루는 일을 좋아합니다
-  - 오픈 소스 프로젝트에 참여합니다
-  - 재미있는 프로젝트를 만드는 것을 좋아합니다
+  - 게임과 플랫폼을 개발하는 소프트웨어 엔지니어입니다
+  - Android, iOS, Unity SDK를 개발합니다
+  - 재사용 가능한 프레임워크와 도구를 만듭니다
+  - 오픈 소스 프로젝트를 만들고 운영합니다
+  - 팀 협업과 원활한 커뮤니케이션을 중요하게 생각합니다

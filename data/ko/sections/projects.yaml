@@ -1,51 +1,45 @@
 section:
-  name: 프로젝트
+  name: 오픈소스
   id: projects
   enable: true
   weight: 5
   showOnNavbar: true
+
 buttons:
   - name: 전체
     filter: all
-  - name: 실무
-    filter: 실무
-  - name: 학술
-    filter: 학술
-  - name: 취미
-    filter: 취미
+  - name: Unity
+    filter: unity
+  - name: Go
+    filter: go
+
 projects:
-  - name: 쿠버네티스
-    logo: /images/sections/projects/kubernetes.png
-    role: 기여자
-    timeline: 2018년 3월 - 현재
-    repo: https://github.com/kubernetes/kubernetes
-    summary: 운영 환경을 위한 컨테이너 배치와 관리 시스템입니다.
-    tags: [실무, 쿠버네티스, 클라우드]
-  - name: 텐서플로
-    logo: /images/sections/projects/tensorflow.png
-    role: 개발자
-    timeline: 2018년 6월 - 현재
-    repo: https://github.com/tensorflow/tensorflow
-    summary: 누구나 사용할 수 있는 오픈 소스 기계 학습 프레임워크입니다.
-    tags: [실무, 기계 학습]
-  - name: 학술 논문 예제
-    role: 팀 리더
-    timeline: 2017년 1월 - 2017년 11월
-    url: https://www.example.com
-    summary: 학술 프로젝트를 소개하는 예제입니다. 연구 배경과 목표, 진행 과정, 주요 결과를 이곳에 정리할 수 있습니다. 함께한 팀과 자신의 역할을 설명하고 자세한 자료로 연결합니다.
-    tags: [학술, 사물 인터넷]
-  - name: 노코드
-    logo: /images/sections/projects/no-code.png
-    role: 아무것도 하지 않음
-    timeline: 2019년 10월 - 2019년 12월
-    repo: https://github.com/kelseyhightower/nocode
-    summary: 안전하고 신뢰할 수 있는 애플리케이션을 만드는 최고의 방법. 아무것도 작성하지 않고 어디에도 배포하지 않습니다.
-    tags: [취미, 재미]
-  - name: 토하
-    logo: /images/sections/projects/toha.png
-    image: /images/sections/projects/toha_website.png
+  - name: Universal SDK Unity
     role: 제작자
-    timeline: 2019년 6월 - 현재
-    repo: https://github.com/hossainemruz/toha
-    summary: 개인 포트폴리오를 위한 휴고 테마입니다.
-    tags: [취미, 휴고, 테마, 실무]
+    repo: https://github.com/coolishbee/universal-sdk-unity
+    summary: 소셜 로그인 등 여러 외부 라이브러리를 하나의 인터페이스로 통합한 Unity SDK입니다. Google·Facebook·Apple 로그인과 Android Custom Tabs, iOS Safari View Controller를 지원하며 Unity Asset Store에 출시했습니다.
+    tags: [unity, sdk, open-source]
+
+  - name: Simple Debug Console
+    role: 제작자
+    repo: https://github.com/coolishbee/simple-debug-console-unity
+    summary: ImGui를 이용한 Unity 런타임 로그 뷰어입니다. 모바일 해상도 대응, 스크롤·열기 제스처, 가로·세로 화면과 고정 비율을 지원하며 Unity Asset Store에 출시했습니다.
+    tags: [unity, tool, open-source]
+
+  - name: Simple HTTP Client
+    role: 제작자
+    repo: https://github.com/coolishbee/simple-http-client-unity
+    summary: UniTask 기반 Unity HTTP 클라이언트입니다. GET, POST, PUT, PATCH 요청과 성공·실패·네트워크 오류 처리, 이미지 다운로드 및 다양한 예제를 제공합니다.
+    tags: [unity, network, open-source]
+
+  - name: Go IAP OneStore
+    role: 제작자
+    repo: https://github.com/coolishbee/go-iap-onestore
+    summary: 원스토어 서버 API를 위한 Go 라이브러리로 OAuth 인증과 인앱 결제 영수증 검증을 지원합니다.
+    tags: [go, iap, open-source]
+
+  - name: Go IAP PlayStore
+    role: 제작자
+    repo: https://github.com/coolishbee/go-iap-playstore
+    summary: Google Play 서버 API를 위한 Go 라이브러리로 OAuth 인증과 환불 목록 조회를 지원합니다.
+    tags: [go, iap, open-source]

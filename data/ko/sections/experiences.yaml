@@ -4,52 +4,133 @@ section:
   enable: true
   weight: 3
   showOnNavbar: true
+
 experiences:
   - company:
-      name: 예제 주식회사
-      url: https://www.example.com
-      location: 다카 지사
-      logo: /images/sections/experiences/company1.jpg
-      overview: 클라우드 환경을 위한 개발로 잘 알려진 회사입니다. 쿠버네티스를 위한 도구를 만듭니다.
+      name: 111퍼센트
+      overview: Unity, C#, Android, iOS 기반 공용 SDK와 게임 프레임워크를 개발합니다.
     positions:
-      - designation: 선임 소프트웨어 엔지니어
-        start: 2019년 11월
+      - designation: 플랫폼 클라이언트 개발자
+        start: 2024년 8월
         responsibilities:
-          - 예제 작업을 수행하는 도구를 설계하고 개발했습니다.
-          - 쿠버네티스 볼륨, 데이터베이스와 클러스터 리소스 정의를 백업하는 재해 복구 도구 [엑스툴](https://www.example.com)을 설계·개발·관리했습니다.
-          - 백엔드 개발팀을 이끌었습니다.
-      - designation: 주니어 소프트웨어 엔지니어
-        start: 2017년 11월
-        end: 2019년 10월
-        responsibilities:
-          - 예제 도구의 기능을 구현하고 테스트했습니다.
-          - 도구를 사용하는 고객을 지원했습니다.
-          - 프로젝트에 필요한 기술을 학습했습니다.
+          - 111퍼센트 게임 전반에서 사용하는 공용 SDK를 설계하고 개발합니다.
+          - 인증, 결제, 광고, 로깅, 빌드 및 패키지 모듈을 개발합니다.
+          - 재사용 가능한 게임 프레임워크를 개발하고 Unity 최적화와 기술 지원을 담당합니다.
+          - 빌드 안정화를 통해 배포 신뢰성을 높이고 공통 모듈의 재사용성을 개선했습니다.
+
   - company:
-      name: 프리예제 주식회사
-      url: https://www.example.com
-      location: 가상의 지역
-      logo: /images/sections/experiences/company2.jpg
-      overview: 예제 주식회사에 입사하기 전에 경험을 쌓은 회사입니다. 경력 화면을 보여주기 위한 예제입니다.
+      name: 게임펍
+      url: https://gamepub.co.kr
+      overview: 게임 서비스를 위한 Android, iOS, Unity SDK와 사내 운영 도구를 개발했습니다.
+    positions:
+      - designation: SDK 개발자
+        start: 2020년 3월
+        end: 2023년 7월
+        responsibilities:
+          - Android, iOS, Unity용 Gamepub SDK를 개발했습니다.
+          - Google·Facebook·Apple 로그인과 Google Play·App Store·원스토어·Galaxy Store 결제를 연동했습니다.
+          - FCM·APNs 푸시와 Retrofit2·Coroutines·Alamofire 기반 네트워크 계층을 개발했습니다.
+          - Unity 패키지 내보내기 도구와 SDK 사용 가이드를 제작했습니다.
+          - Fastlane과 Jenkins를 이용해 SDK 배포를 자동화하고 Unity 기반 빌드 머신을 구축했습니다.
+          - Android SDK의 JCenter·Maven 배포 체계를 구축했습니다.
+          - 게임 서비스 스케줄러, 광고 수익 보고서, Adjust 마케팅 지표 등 사내 백오피스를 개발했습니다.
+
+  - company:
+      name: 프리랜서
+      url: https://youtu.be/1voJ_RI_h1k
+      overview: 5G 기반 자율주행 무인 경비 로봇의 원격 제어 솔루션을 개발했습니다.
     positions:
       - designation: 소프트웨어 엔지니어
-        start: 2016년 3월
-        end: 2017년 5월
+        start: 2019년 11월
+        end: 2020년 1월
         responsibilities:
-          - 다양한 예제 코드를 작성했습니다.
-          - 여러 예제를 읽고 분석했습니다.
-          - 다양한 예제 영상을 살펴보았습니다.
+          - OpenCV DLL과 C++·C# 간 인터페이스 및 데이터 변환 계층을 설계하고 개발했습니다.
+          - API 검증용 C# WinForms 도구와 멀티스레드 영상 스트리밍 시스템을 개발했습니다.
+          - Unity 기반 다중 모니터 카메라 뷰, 로봇 체험, 시스템 제어 프로그램을 개발했습니다.
+          - 소켓 통신, HUD, 미니맵, Google Maps Static API와 360도 카메라 스트리밍을 연동했습니다.
+
   - company:
-      name: 인턴 집계 회사
-      url: https://www.example.com
-      location: 인턴의 나라
-      logo: /images/sections/experiences/company3.jpg
-      overview: 전 세계 인턴 엔지니어의 수를 집계하는 가상의 회사입니다.
+      name: 뮤엠교육
+      url: https://mumenglish.com
+      overview: Unity 기반 교육용 모바일 앱과 교사용 PC 프로그램을 개발했습니다.
     positions:
-      - designation: 인턴
-        start: 2015년 6월
-        end: 2016년 1월
+      - designation: Unity 개발자
+        start: 2017년 9월
+        end: 2019년 7월
         responsibilities:
-          - 많은 인턴의 수를 집계했습니다.
-          - 더 많은 인턴의 수를 집계했습니다.
-          - 저 자신도 인턴으로 집계했습니다.
+          - 뮤고박스 Android 앱과 교사용 Unity Standalone 프로그램을 개발했습니다.
+          - 뮤고스쿨 Android 네이티브·Unity 앱과 C# WinForms 교사용 프로그램을 개발하고 유지보수했습니다.
+          - NSIS 배포 시스템과 Jenkins 기반 APK·에셋 번들 자동 빌드를 구축했습니다.
+          - 에셋·데이터·카메라·네트워크 시스템과 3D 캐릭터 및 환경을 개발했습니다.
+          - WebRTC 기반 소환 수업과 HTTP, Socket, WebSocket 통신을 구현했습니다.
+
+  - company:
+      name: Valofe
+      url: https://valofe.com
+      overview: Unity 기반 온라인 게임의 글로벌 서비스와 빌드·배포 시스템을 담당했습니다.
+    positions:
+      - designation: Unity 개발자
+        start: 2017년 3월
+        end: 2017년 9월
+        responsibilities:
+          - 삼국지를 품다의 Google Play, App Store, 원스토어, WebPlayer 빌드와 배포를 담당했습니다.
+          - 대만 현지화와 신규 출시를 진행하고 MyCard를 연동했습니다.
+          - Jenkins Slave Node 기반 Unity iOS 빌드 자동화를 구축했습니다.
+          - HTTP Manager, iOS 심사용 서버 전환, 웹뷰 상점과 결제 관리자를 개발했습니다.
+          - 개발·스테이지·라이브 Git 브랜치를 통합했습니다.
+
+  - company:
+      name: YJM Games
+      url: https://yjmgames.com
+      overview: Unity 모바일 게임의 현지화, SDK 연동, 빌드 자동화와 시스템 리팩터링을 담당했습니다.
+    positions:
+      - designation: Unity 개발자
+        start: 2016년 7월
+        end: 2017년 1월
+        responsibilities:
+          - 캡슐풋볼매니저의 이란 현지화와 Bazaar 출시를 진행했습니다.
+          - 현지 마켓 SDK를 연동하고 데이터 및 UI 시스템을 리팩터링했습니다.
+          - Jenkins 기반 Unity 빌드 자동화를 구축했습니다.
+          - 게임 콘텐츠와 캐릭터 제작 도구를 개발했습니다.
+
+  - company:
+      name: Picneko Creative
+      url: https://www.softnyx.co.kr
+      overview: Unity 모바일 게임의 글로벌 빌드·배포, 콘텐츠와 운영 도구를 개발했습니다.
+    positions:
+      - designation: Unity 개발자
+        start: 2015년 4월
+        end: 2016년 3월
+        responsibilities:
+          - 워스토리와 킹덤스토리의 Android·iOS 빌드 배포 및 라이브 서비스를 담당했습니다.
+          - Hudson 빌드 시스템을 유지보수하고 Jenkins 기반 에셋 번들 빌드를 자동화했습니다.
+          - Python으로 dSYM 파일 업로드 스크립트를 개발했습니다.
+          - Kochava, Amazon Appstore·IAP·ADM·GameCircle, Facebook, GPGS SDK를 연동했습니다.
+          - 워스토리를 호주·북미의 Android, iOS, Amazon 마켓에 출시하고 텍스처를 최적화했습니다.
+
+  - company:
+      name: BH Games
+      overview: C++ 기반 온라인 게임의 국내·글로벌 서비스와 현지화를 담당했습니다.
+    positions:
+      - designation: 글로벌 현지화 개발자
+        start: 2013년 8월
+        end: 2014년 8월
+        responsibilities:
+          - 불패온라인의 국내 라이브 서비스와 태국 출시를 담당했습니다.
+          - 잭팟, 일대일 대전, 아이템 교환 시스템을 개발했습니다.
+          - 태국 현지화와 패치 시스템을 구현했습니다.
+          - 운영 도구를 개발하고 유지보수했습니다.
+
+  - company:
+      name: L&K Logic Korea
+      url: https://logickorea.co.kr
+      overview: C++와 DirectX 기반 온라인 게임 클라이언트 및 UI 시스템을 개발했습니다.
+    positions:
+      - designation: 클라이언트 프로그래머
+        start: 2012년 3월
+        end: 2013년 5월
+        responsibilities:
+          - 붉은보석2 온라인 신규 개발에 참여했습니다.
+          - 툴팁, 스킬 UI, 시스템 옵션과 드롭 아이템을 개발했습니다.
+          - UI 엔진과 제작 도구를 개선했습니다.
+          - Actor, Player, NPC 관리 구조와 플레이어 이동 동기화를 개발했습니다.

@@ -1,4 +1,3 @@
-# section information
 section:
   name: Skills
   id: skills
@@ -6,66 +5,47 @@ section:
   weight: 2
   showOnNavbar: true
   filter: true
-  # Can optionally hide the title in sections
-  # hideTitle: true
 
-# filter buttons
 buttons:
-- name: All
-  filter: "all"
-- name: Basic
-  filter: "basic"
-- name: Language
-  filter: "language"
-- name: Container
-  filter: "container"
-- name: Others
-  filter: "others"
+  - name: All
+    filter: all
+  - name: Languages
+    filter: language
+  - name: Frameworks & Libraries
+    filter: framework
+  - name: Development Tools
+    filter: dev-tools
+  - name: Collaboration Tools
+    filter: communication
+  - name: Version Control
+    filter: version-control
 
-# Your Skills.
-# Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  categories: ["container"]
-  url: "https://kubernetes.io/"
+  - name: Language
+    summary: C, C++, C#, Java, Objective-C, Go, Swift, Kotlin
+    categories: [language]
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  categories: ["basic", "language"]
-  url: "https://golang.org/"
+  - name: Framework/Library
+    summary: |
+      **C++:** STL, Win32, WinAPI, MFC, DirectX, Cocos2d-x, RideEngine, ZerodinEngine
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  categories: ["others"]
+      **Unity:** WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, Amazon SDK, Kochava, GCM, Kakao, Bazaar SDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia, SQLite
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  categories: ["container"]
-  url: "https://www.docker.com/"
+      **Android:** Retrofit2, Firebase, Google Sign-In, Facebook, Gson, ButterKnife, Google Play Billing, Maven, Gradle, Glide, FCM, Apple Login, Coroutines, Data Binding, ProGuard, ACRA
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  categories: ["basic"]
-  url: "https://prometheus.io/"
+      **iOS:** MVVM, RxSwift, AFNetworking, JSONModel, Firebase, Facebook, Apple Login, StoreKit, APNs, CocoaPods, Combine, Alamofire, SwiftUI, XCTest, SPM, Carthage, Core Data, Realm, PLCrashReporter
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-  categories: ["others"]
+      **Go:** Gin, Fyne, goquery, GORM, Redigo
+    categories: [framework]
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  categories: ["basic"]
-  url: "https://git-scm.com/"
+  - name: Dev Tools
+    summary: Visual Studio, Visual Studio Code, Android Studio, Xcode, Unity, Sublime Text, Hudson, Jenkins, Fastlane
+    categories: [dev-tools]
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
-  categories: ["basic", "language"]
+  - name: Communication Tools
+    summary: Redmine, Jira, Confluence, Slack, Mantis, Trello, TaskWorld, JANDI
+    categories: [communication]
+
+  - name: Version Control System
+    summary: SVN, GitHub, Bitbucket, GitLab, Bonobo Git, Azure DevOps
+    categories: [version-control]

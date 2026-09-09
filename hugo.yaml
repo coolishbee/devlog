@@ -1,9 +1,9 @@
 # 저장소 하위 경로를 포함한 실제 배포 주소입니다.
 baseURL: https://coolishbee.github.io/devlog/
-title: "John's Blog"
-locale: en
+title: 천현철의 개발 블로그
+locale: ko-KR
 timeZone: Asia/Seoul
-defaultContentLanguage: en
+defaultContentLanguage: ko
 defaultContentLanguageInSubdir: false
 enableEmoji: true
 enableRobotsTXT: true
@@ -25,13 +25,13 @@ languages:
   en:
     locale: en
     label: English
-    title: "John's Blog"
-    weight: 1
+    title: Hyuncheol Cheon's Blog
+    weight: 2
   ko:
     locale: ko-KR
     label: 한국어
-    title: 존의 블로그
-    weight: 2
+    title: 천현철의 개발 블로그
+    weight: 1
 
 markup:
   goldmark:
