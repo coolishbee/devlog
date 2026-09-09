@@ -29,6 +29,7 @@ if _, err := doThing(); err != nil {
 
 {{< /note >}}
 
+
 <!-- Switch -->
 
 {{< note title="Switch" >}}

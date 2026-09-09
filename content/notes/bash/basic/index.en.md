@@ -21,6 +21,7 @@ echo "${NAME}
 
 {{< /note >}}
 
+
 <!-- Condition -->
 {{< note title="Condition" >}}
 
