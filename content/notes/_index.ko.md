@@ -1,3 +1,3 @@
 ---
-title: 노트
+title: Notes
 ---

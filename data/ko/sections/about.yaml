@@ -1,5 +1,5 @@
 section:
-  name: 소개
+  name: About
   id: about
   enable: true
   weight: 1
@@ -18,19 +18,19 @@ summary: >-
   오픈 소스 프로젝트를 꾸준히 개발하고 있습니다.
 
 socialLinks:
-  - name: 이메일
+  - name: Email
     icon: fas fa-envelope
     url: mailto:chc3484@gmail.com
-  - name: 깃허브
+  - name: GitHub
     icon: fab fa-github
     url: https://github.com/coolishbee
-  - name: 인스타그램
+  - name: Instagram
     icon: fab fa-instagram
     url: https://www.instagram.com/coolishbee
-  - name: 기술 블로그
+  - name: Tech Blog
     icon: fas fa-globe
     url: https://coolishbee.github.io/techblog
 
 resourceLinks:
-  - title: 이력서
+  - title: Resume
     url: files/resume.pdf

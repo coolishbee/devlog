@@ -1,5 +1,5 @@
 section:
-  name: 최근 글
+  name: Recent Posts
   id: recent-posts
   enable: true
   weight: 8

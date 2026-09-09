@@ -1,5 +1,5 @@
 section:
-  name: 기술
+  name: Skills
   id: skills
   enable: true
   weight: 2
@@ -7,17 +7,17 @@ section:
   filter: true
 
 buttons:
-  - name: 전체
+  - name: All
     filter: all
-  - name: 언어
+  - name: Languages
     filter: language
-  - name: 프레임워크·라이브러리
+  - name: Frameworks & Libraries
     filter: framework
-  - name: 개발 도구
+  - name: Development Tools
     filter: dev-tools
-  - name: 협업 도구
+  - name: Collaboration Tools
     filter: communication
-  - name: 버전 관리
+  - name: Version Control
     filter: version-control
 
 skills:

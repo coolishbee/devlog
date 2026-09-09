@@ -1,3 +1,3 @@
 ---
-title: 글
+title: Posts
 ---
