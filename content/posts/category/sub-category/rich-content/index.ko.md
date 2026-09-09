@@ -12,7 +12,7 @@ hero: images/forest.jpg
 tags:
 - 마크다운
 - 콘텐츠 구성
-- 다국어
+- 미디어
 categories:
 - 기초
 ---

@@ -1,5 +1,5 @@
 section:
-  name: Education
+  name: 학력
   id: education
   template: sections/education.html
   enable: true

@@ -1,5 +1,5 @@
 section:
-  name: Skills
+  name: 기술
   id: skills
   enable: true
   weight: 2
@@ -7,25 +7,25 @@ section:
   filter: true
 
 buttons:
-  - name: All
+  - name: 전체
     filter: all
-  - name: Languages
+  - name: 프로그래밍 언어
     filter: language
-  - name: Frameworks & Libraries
+  - name: 프레임워크와 라이브러리
     filter: framework
-  - name: Development Tools
+  - name: 개발 도구
     filter: dev-tools
-  - name: Collaboration Tools
+  - name: 협업 도구
     filter: communication
-  - name: Version Control
+  - name: 버전 관리
     filter: version-control
 
 skills:
-  - name: Language
+  - name: 프로그래밍 언어
     summary: C, C++, C#, Java, Objective-C, Go, Swift, Kotlin
     categories: [language]
 
-  - name: Framework/Library
+  - name: 프레임워크와 라이브러리
     summary: |
       **C++:** STL, Win32, WinAPI, MFC, DirectX, Cocos2d-x, RideEngine, ZerodinEngine
 
@@ -38,14 +38,14 @@ skills:
       **Go:** Gin, Fyne, goquery, GORM, Redigo
     categories: [framework]
 
-  - name: Dev Tools
+  - name: 개발 도구
     summary: Visual Studio, Visual Studio Code, Android Studio, Xcode, Unity, Sublime Text, Hudson, Jenkins, Fastlane
     categories: [dev-tools]
 
-  - name: Communication Tools
+  - name: 협업 도구
     summary: Redmine, Jira, Confluence, Slack, Mantis, Trello, TaskWorld, JANDI
     categories: [communication]
 
-  - name: Version Control System
+  - name: 버전 관리
     summary: SVN, GitHub, Bitbucket, GitLab, Bonobo Git, Azure DevOps
     categories: [version-control]

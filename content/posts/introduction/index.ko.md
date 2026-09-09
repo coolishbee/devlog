@@ -7,7 +7,7 @@ menu:
     name: 소개
     identifier: introduction
     weight: 10
-tags: ["기초", "다국어"]
+tags: ["기초", "글 작성"]
 categories: ["기초"]
 ---
 

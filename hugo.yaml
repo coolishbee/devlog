@@ -14,19 +14,12 @@ module:
   mounts:
     - source: static
       target: static
-    - source: ./node_modules/flag-icons/flags
-      target: static/flags
     - source: ./node_modules/@fontsource/mulish/files
       target: static/files
     - source: ./node_modules/katex/dist/fonts
       target: static/fonts
 
 languages:
-  en:
-    locale: en
-    label: English
-    title: Hyuncheol Cheon's Blog
-    weight: 2
   ko:
     locale: ko-KR
     label: 한국어
@@ -96,7 +89,7 @@ params:
       enable: true
       on_card: true
     flags:
-      enable: true
+      enable: false
     embedpdf:
       enable: true
     flowchart:

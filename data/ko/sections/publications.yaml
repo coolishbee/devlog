@@ -1,17 +1,17 @@
 section:
-  name: Publications
+  name: 발표 자료
   id: publications
   enable: true
   weight: 6
   showOnNavbar: true
 buttons:
-  - name: All
+  - name: 전체
     filter: all
-  - name: Machine Learning
+  - name: 기계 학습
     filter: machinelearning
-  - name: Image Processing
+  - name: 영상 처리
     filter: image-processing
-  - name: Security
+  - name: 보안
     filter: security
 publications:
   - title: 기계 학습에 관한 예제 논문

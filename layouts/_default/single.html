@@ -42,7 +42,7 @@
         {{ $showReadingTime := site.Params.features.readingTime.enable | default true }}
         {{ if site.Params.features.blog.showAuthor | default true }}
         <div class="author-profile ms-auto align-self-lg-center">
-          <img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}' alt="Author Image">
+          <img class="rounded-circle" src='{{ partial "helpers/get-author-image.html" . }}' alt="작성자 사진">
           <h5 class="author-name">{{ partial "helpers/get-author-name.html" . }}</h5>
           <p class="text-muted">
             {{ if $showDate }}{{ .Page.Date | time.Format ":date_full" }}{{ end }}
@@ -192,7 +192,7 @@
   </div>
   <!--scroll back to top-->
   <a id="scroll-to-top" class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="left"
-    title="Scroll to top">
+    title="맨 위로 이동">
     <i class="fas fa-chevron-circle-up"></i>
   </a>
 </section>

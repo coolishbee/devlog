@@ -49,7 +49,7 @@ jobs:
         run: npm ci --include=dev
       - name: 사이트 빌드
         run: npm run build
-      - name: 번역과 배포 경로 검증
+      - name: 한국어 콘텐츠와 배포 경로 검증
         run: npm run check
       - name: 배포할 파일 업로드
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

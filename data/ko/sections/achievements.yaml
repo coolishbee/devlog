@@ -1,5 +1,5 @@
 section:
-  name: Achievements
+  name: 활동
   id: achievements
   enable: true
   weight: 10

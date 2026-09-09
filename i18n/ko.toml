@@ -1,112 +1,163 @@
-# 한국어 콘텐츠에서도 시스템 UI는 영어로 표시합니다.
+# 한국어 화면 문구입니다.
+
 [home]
-other = "Home"
+other = "홈"
+
 [posts]
-other = "Posts"
+other = "글 목록"
+
 [toc_heading]
-other = "Table of Contents"
+other = "목차"
+
 [tags]
-other = "Tags"
+other = "태그"
+
 [categories]
-other = "Categories"
+other = "분류"
+
 [at]
-other = "at"
+other = "소속"
+
 [resume]
-other = "My resume"
+other = "이력서"
+
 [navigation]
-other = "Navigation"
+other = "바로가기"
+
 [contact_me]
-other = "Contact me:"
+other = "연락처"
+
 [email]
-other = "Email"
+other = "이메일"
+
 [phone]
-other = "Phone"
+other = "전화"
+
 [newsletter_text]
-other = "Stay up to date with email notification"
+other = "새 글 소식을 이메일로 받아보세요"
+
 [newsletter_input_placeholder]
-other = "Enter email"
+other = "이메일 주소"
+
 [newsletter_warning]
-other = "By entering your email address, you agree to receive the newsletter of this website."
+other = "이메일 주소를 입력하면 이 사이트의 새 글 알림 수신에 동의하게 됩니다."
+
 [submit]
-other = "Submit"
+other = "보내기"
+
 [hugoAttributionText]
-other = "Powered by"
+other = "제작 도구"
+
 [prev]
-other = "Prev"
+other = "이전"
+
 [next]
-other = "Next"
+other = "다음"
+
 [share_on]
-other = "Share on"
+other = "공유하기"
+
 [improve_this_page]
-other = "Improve this page"
+other = "이 글 수정하기"
+
 [out_of]
-other = "out of"
+other = "전체"
+
 [publications]
-other = "Publications"
+other = "발표 자료"
+
 [taken_courses]
-other = "Taken Courses"
+other = "이수 과목"
+
 [course_name]
-other = "Course Name"
+other = "과목명"
+
 [total_credit]
-other = "Total Credit"
+other = "전체 학점"
+
 [obtained_credit]
-other = "Obtained Credit"
+other = "취득 학점"
+
 [extracurricular_activities]
-other = "Extracurricular Activities"
+other = "주요 활동"
+
 [show_more]
-other = "Show More"
+other = "더 보기"
+
 [show_less]
-other = "Show Less"
+other = "접기"
+
 [responsibilities]
-other = "Responsibilities:"
+other = "담당 업무"
+
 [present]
-other = "Present"
+other = "현재"
+
 [comments_javascript]
-other = "Please enable JavaScript to view the"
+other = "댓글을 보려면 자바스크립트를 활성화해 주세요."
+
 [comments_by]
-other = "comments powered by"
+other = "댓글 제공"
+
 [read]
-other = "Read"
+other = "읽기"
+
 [project_star]
-other = "Star"
+other = "관심 등록"
+
 [project_details]
-other = "Details"
+other = "자세히 보기"
+
 [err_404]
-other = "The page you are looking for is not there yet."
+other = "요청하신 페이지를 찾을 수 없습니다."
+
 [more]
-other = "More"
+other = "더 보기"
+
 [view_certificate]
-other = "View Certificate"
+other = "수료증 보기"
+
 [notes]
-other = "Notes"
+other = "노트"
+
 [disclaimer_text]
-other = "Liability Notice"
+other = "이용 안내"
+
 [search]
-other = "Search"
+other = "검색"
+
 [minute]
-one = "minute"
-other = "minutes"
+other = "분"
+
 [pdf_page]
-other = "Page"
+other = "페이지"
+
 [pdf_previous]
-other = "Previous"
+other = "이전"
+
 [pdf_download]
-other = "Download PDF"
+other = "문서 내려받기"
+
 [search_empty]
-other = "Please enter a word or phrase above"
+other = "검색할 단어나 문장을 입력해 주세요."
+
 [search_no_matches]
-other = "No matches found"
+other = "검색 결과가 없습니다."
+
 [search_error]
-other = "Search could not load. Please try again."
+other = "검색 정보를 불러오지 못했습니다. 다시 시도해 주세요."
+
 [card_image]
-other = "Card Heading Image"
+other = "글 대표 이미지"
+
 [theme_dark]
-other = "Dark Theme"
+other = "어두운 화면"
+
 [theme_light]
-other = "Light Theme"
+other = "밝은 화면"
+
 [theme_system]
-other = "System Theme"
+other = "기기 설정 따르기"
+
 [theme_select]
-other = "Select theme"
-[language_select]
-other = "Select language"
+other = "화면 테마 선택"

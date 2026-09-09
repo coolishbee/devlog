@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "dev": "hugo server --bind 127.0.0.1 --disableFastRender",
-    "build": "hugo --gc --minify",
+    "build": "hugo --gc --minify --cleanDestinationDir",
     "check": "python3 scripts/check_site.py"
   }
 }

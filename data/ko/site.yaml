@@ -5,7 +5,7 @@ disclaimer: >-
   다만 테마 작성자는 어떠한 보증도 제공하지 않으며 테마 사용으로 발생한 문제에 책임을 지지 않습니다.
 description: 소프트웨어 엔지니어 천현철의 포트폴리오와 개발 블로그입니다.
 customMenus:
-  - name: Docs
+  - name: 사용 가이드
     url: https://toha-docs.netlify.app/posts/
     hideFromNavbar: false
     showOnFooter: false

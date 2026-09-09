@@ -1,5 +1,5 @@
 section:
-  name: Experience
+  name: 경력
   id: experiences
   enable: true
   weight: 3
@@ -8,32 +8,37 @@ section:
 experiences:
   - company:
       name: 111퍼센트
-      overview: Unity, C#, Android, iOS 기반 공용 SDK와 게임 프레임워크를 개발합니다.
+      overview: 유니티·안드로이드·iOS 기반 공용 개발 도구와 게임 프레임워크를 설계하고 운영합니다.
     positions:
       - designation: 플랫폼 클라이언트 개발자
         start: 2024년 8월
         responsibilities:
-          - 111퍼센트 게임 전반에서 사용하는 공용 SDK를 설계하고 개발합니다.
-          - 인증, 결제, 광고, 로깅, 빌드 및 패키지 모듈을 개발합니다.
-          - 재사용 가능한 게임 프레임워크를 개발하고 Unity 최적화와 기술 지원을 담당합니다.
-          - 빌드 안정화를 통해 배포 신뢰성을 높이고 공통 모듈의 재사용성을 개선했습니다.
+          - 111퍼센트 게임 전반에서 사용하는 공용 SDK와 재사용 가능한 게임 프레임워크를 설계하고 개발합니다.
+          - 인증, 결제, 광고, 로깅, 빌드 및 패키지 모듈을 개발하고 유니티 최적화와 기술 지원을 담당합니다.
+          - 유니티 앱 링크·유니버설 링크 지원 공용 패키지를 개발하고 [딥링크 빌드 문제를 분석하고 해결했습니다](posts/unity/unity-deeplink/).
+          - 유니티·안드로이드·iOS를 지원하는 통합 플랫폼 SDK를 설계·개발하고 운영합니다.
+          - 인증·결제·푸시 등 게임 공통 기능과 플랫폼 연동 모듈을 개발하고, 유니티와 네이티브 간 연동 구조 및 공통 인터페이스를 설계합니다.
+          - 운영체제·단말·유니티 버전별 호환성 문제에 대응하며 [안드로이드 16KB 페이지 크기를 지원하도록 네이티브 라이브러리를 개선했습니다](posts/unity/android-16kb-page-size/).
+          - 개발 도구의 빌드·배포·버전 관리와 하위 호환성을 유지하고 지속적으로 품질을 개선합니다.
+          - 운빨존많겜·협동타워디펜스의 빌드 장애에 대응하고 배포 안정화를 통해 배포 신뢰성을 높였습니다.
+          - FCM 기반 클라이언트·서버 공용 모듈을 개발하고 푸시 API를 연동했습니다.
 
   - company:
       name: 게임펍
       url: https://gamepub.co.kr
-      overview: 게임 서비스를 위한 Android, iOS, Unity SDK와 사내 운영 도구를 개발했습니다.
+      overview: 게임 서비스를 위한 안드로이드·iOS·유니티 개발 도구와 사내 운영 도구를 개발했습니다.
     positions:
       - designation: SDK 개발자
         start: 2020년 3월
         end: 2023년 7월
         responsibilities:
-          - Android, iOS, Unity용 Gamepub SDK를 개발했습니다.
-          - Google·Facebook·Apple 로그인과 Google Play·App Store·원스토어·Galaxy Store 결제를 연동했습니다.
-          - FCM·APNs 푸시와 Retrofit2·Coroutines·Alamofire 기반 네트워크 계층을 개발했습니다.
-          - Unity 패키지 내보내기 도구와 SDK 사용 가이드를 제작했습니다.
-          - Fastlane과 Jenkins를 이용해 SDK 배포를 자동화하고 Unity 기반 빌드 머신을 구축했습니다.
-          - Android SDK의 JCenter·Maven 배포 체계를 구축했습니다.
-          - 게임 서비스 스케줄러, 광고 수익 보고서, Adjust 마케팅 지표 등 사내 백오피스를 개발했습니다.
+          - 안드로이드·iOS·유니티용 [게임펍 SDK를 설계하고 개발했습니다](posts/project/gamepub-sdk/).
+          - 구글·페이스북·애플 로그인과 구글 플레이·앱스토어·원스토어·갤럭시 스토어 결제를 연동했습니다.
+          - FCM·APNs 푸시와 [Retrofit2·코루틴](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample) 기반 네트워크 계층을 개발했습니다.
+          - '[유니티 패키지 내보내기 도구](https://github.com/coolishbee/unity-export-package-tool)와 [SDK 사용 가이드](https://docs.igamepub.co.kr/)를 제작했습니다.'
+          - '[패스트레인과 젠킨스를 이용한 SDK 배포 자동화](posts/project/jenkins-sdk-build-deploy/)와 [유니티 기반 빌드 머신](posts/unity/unity-build-machine-shell/)을 구축했습니다.'
+          - 안드로이드 SDK의 [제이센터 배포](posts/android/jcenter/)와 [메이븐 배포](posts/android/maven-deploy/) 체계를 구축했습니다.
+          - '[게임 서비스 스케줄러](posts/project/jenkins-python/), [광고 수익 보고서](posts/project/ad-report-admin/), [마케팅 지표 관리 도구](posts/project/adjust-data-admin/) 등 사내 백오피스를 개발했습니다.'
 
   - company:
       name: 프리랜서

@@ -1,12 +1,12 @@
 section:
-  name: Open Source
+  name: 오픈 소스
   id: projects
   enable: true
   weight: 5
   showOnNavbar: true
 
 buttons:
-  - name: All
+  - name: 전체
     filter: all
   - name: Unity
     filter: unity
