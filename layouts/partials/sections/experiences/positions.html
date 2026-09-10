@@ -1,0 +1,17 @@
+<div class="col-10 col-lg-8">
+  <div class="experience-entry-heading">
+    <div class="company-heading">
+      <h5>{{ if .company.url }}<a href="{{ .company.url }}" title="{{ .company.name }}" target="_blank" rel="noopener">{{ .company.name }}</a>{{ else }}{{ .company.name }}{{ end }}</h5>
+      <p class="text-muted">{{ .caption }}</p>
+    </div>
+  </div>
+  <div class="positions">
+    <div class="company-heading">
+      <h5 class="designation">{{ .designation }}</h5>
+    </div>
+    {{ with .quote }}
+    <div class="experience-quote">{{ . | markdownify }}</div>
+    {{ end }}
+    <div class="experience-description">{{ .description | markdownify }}</div>
+  </div>
+</div>

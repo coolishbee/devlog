@@ -1,9 +1,9 @@
 ---
-title: 기초
+title: Basic
 weight: 10
 menu:
   notes:
-    name: 기초
+    name: Basic
     identifier: notes-go-basics
     parent: notes-go
     weight: 10

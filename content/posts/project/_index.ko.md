@@ -1,8 +1,8 @@
 ---
-title: 프로젝트
+title: Project
 menu:
   sidebar:
-    name: 프로젝트
+    name: Project
     identifier: project
     weight: 1
 ---

@@ -1,29 +1,31 @@
 section:
-  name: 학력
+  name: Education
   id: education
-  template: sections/education.html
   enable: true
   weight: 4
   showOnNavbar: true
-
 degrees:
-  - name: 게임 프로그래밍 1년 과정 수료
-    icon: fa-code
-    timeframe: 2011-2012
-    institution:
-      name: 게임스쿨
-    extracurricularActivities:
-      - C, C++, WinAPI, MFC, TCP/IP 등 프로그래밍 기초를 학습했습니다.
-      - DirectX 3D, Irrlicht Engine, Unity 3, Cocos2d-x를 활용한 게임 개발 과정을 이수했습니다.
-
-  - name: 게임소프트웨어학과 학사
-    icon: fa-graduation-cap
-    timeframe: 2003-2012
-    institution:
-      name: 극동대학교
-    extracurricularActivities:
-      - 자료구조, 알고리즘, 네트워크, 그래픽스와 C, C++, C# 프로그래밍을 학습했습니다.
-      - 게임 시나리오와 기획 과정을 이수했습니다.
-    customSections:
-      - name: 졸업 작품
-        content: Objective-C로 iPhone용 2D 디펜스 게임을 개발했습니다.
+- institution:
+    name: 게임스쿨
+  timeframe: 2011 - 2012
+  name: 게임프로그래밍 교육 1년과정 수료
+  quote: |
+    프로그래밍 기초 및 게임개발에 필요한 교육과정
+  description: |
+    - C, C++, WinAPI, MFC, TCP/IP
+    - DirectX 3D, 일리히트엔진, 유니티3, [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
+  icon: fa-graduation-cap
+- institution:
+    name: 극동대학교
+  timeframe: 2003 - 2012
+  name: 게임소프트웨어 학과(졸업)
+  quote: |
+    프로그래밍 기초 및 졸업작품
+  description: |
+    - 자료구조, 알고리즘
+    - C, C++, C#
+    - 네트워크
+    - 그래픽스
+    - 게임시나리오, 기획
+    - 아이폰(objc) 2D 디펜스게임(졸업작품)
+  icon: fa-graduation-cap

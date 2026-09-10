@@ -1,12 +1,12 @@
 section:
-  name: 오픈 소스
+  name: Open-source
   id: projects
   enable: true
   weight: 5
   showOnNavbar: true
 
 buttons:
-  - name: 전체
+  - name: All
     filter: all
   - name: Unity
     filter: unity
@@ -15,31 +15,55 @@ buttons:
 
 projects:
   - name: Universal SDK Unity
-    role: 제작자
+    role: Owner
     repo: https://github.com/coolishbee/universal-sdk-unity
-    summary: 소셜 로그인 등 여러 외부 라이브러리를 하나의 인터페이스로 통합한 Unity SDK입니다. Google·Facebook·Apple 로그인과 Android Custom Tabs, iOS Safari View Controller를 지원하며 Unity Asset Store에 출시했습니다.
+    summary: |
+      - 소셜 로그인(Google, Facebook, Apple)
+      - 안드로이드(CustomTabView), iOS(SafariViewController)
+      - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/204843)
+      - [Universal SDK Android](https://github.com/coolishbee/universal-sdk-android)
+      - [Universal SDK iOS](https://github.com/coolishbee/universal-sdk-ios)
     tags: [unity, sdk, open-source]
 
-  - name: Simple Debug Console
-    role: 제작자
+  - name: simple debug console
+    role: Owner
     repo: https://github.com/coolishbee/simple-debug-console-unity
-    summary: ImGui를 이용한 Unity 런타임 로그 뷰어입니다. 모바일 해상도 대응, 스크롤·열기 제스처, 가로·세로 화면과 고정 비율을 지원하며 Unity Asset Store에 출시했습니다.
+    summary: |
+      - 모바일 해상도에 맞게 리사이즈
+      - 제스처 지원(스크롤, 열기)
+      - Portrait, Landscape 지원
+      - 16:9, 9:16 고정비율
+      - [유니티 에셋스토어 출시](https://assetstore.unity.com/packages/slug/228001)
     tags: [unity, tool, open-source]
 
-  - name: Simple HTTP Client
-    role: 제작자
+  - name: simple http client
+    role: Owner
     repo: https://github.com/coolishbee/simple-http-client-unity
-    summary: UniTask 기반 Unity HTTP 클라이언트입니다. GET, POST, PUT, PATCH 요청과 성공·실패·네트워크 오류 처리, 이미지 다운로드 및 다양한 예제를 제공합니다.
+    summary: |
+      - GET, POST, PUT, PATCH 제공
+      - 성공, 실패, 네트워크 에러 이벤트 처리
+      - 이미지 다운로드 제공
+      - 다양한 예제 제공
     tags: [unity, network, open-source]
 
-  - name: Go IAP OneStore
-    role: 제작자
+  - name: go iap onestore
+    role: Owner
     repo: https://github.com/coolishbee/go-iap-onestore
-    summary: 원스토어 서버 API를 위한 Go 라이브러리로 OAuth 인증과 인앱 결제 영수증 검증을 지원합니다.
+    summary: |
+      - OAuth 인증
+      - 결제 영수증 검증
     tags: [go, iap, open-source]
 
-  - name: Go IAP PlayStore
-    role: 제작자
+  - name: go iap playstore
+    role: Owner
     repo: https://github.com/coolishbee/go-iap-playstore
-    summary: Google Play 서버 API를 위한 Go 라이브러리로 OAuth 인증과 환불 목록 조회를 지원합니다.
+    summary: |
+      - OAuth 인증
+      - 환불목록 조회 API
     tags: [go, iap, open-source]
+
+  - name: GoogleUserMessagingPlatform
+    role: Contributor
+    repo: https://github.com/binouze/GoogleUserMessagingPlatform
+    summary: Unity 프로젝트의 iOS와 Android에서 Google AdMob User Messaging Platform을 사용할 수 있도록 제공하는 간단한 구현입니다.
+    tags: [unity, ios, android, open-source]

@@ -94,8 +94,13 @@ def main():
     home = output / 'index.html'
     require(home in pages, '홈 화면이 없습니다.')
     if home in pages:
-        for section in ['home', 'about', 'skills', 'experiences', 'education', 'projects', 'publications', 'featured-posts', 'recent-posts', 'accomplishments', 'achievements']:
+        for section in ['home', 'about', 'skills', 'experiences', 'education', 'projects', 'featured-posts', 'recent-posts']:
             require(section in pages[home].ids, f'홈 영역 누락: {section}')
+        for section in ['publications', 'accomplishments', 'achievements']:
+            require(section not in pages[home].ids, f'원본에 없는 홈 영역이 남아 있습니다: {section}')
+        home_html = home.read_text()
+        for label in ['Home', 'About Me', 'Skills', 'Experience', 'Education', 'Open-source', 'Featured Posts', 'Recent Posts', 'Docs']:
+            require(label in home_html, f'영문 시스템 문구 누락: {label}')
     for required in ['posts/index.html', 'notes/index.html', 'search/index.html', 'index.json', 'index.xml', '404.html', 'sitemap.xml', 'robots.txt']:
         require((output / required).is_file(), f'필수 결과 누락: {required}')
 
@@ -119,7 +124,7 @@ def main():
             errors.add(f'게시글 검색 색인 누락: {url}')
         for entry in entries:
             require(entry['permalink'].startswith(base_url), '검색 결과의 배포 경로 오류')
-            require(bool(re.search(r'\d+년\s*\d+월\s*\d+일', entry.get('date', ''))), f"한국어 검색 날짜 표시 오류: {entry['permalink']}")
+            require(bool(re.fullmatch(r'[A-Z][a-z]+ \d{1,2}, \d{4}', entry.get('date', ''))), f"영문 검색 날짜 표시 오류: {entry['permalink']}")
             check_reference(entry['permalink'], home)
             if entry.get('hero'):
                 check_reference(entry['hero'], home)

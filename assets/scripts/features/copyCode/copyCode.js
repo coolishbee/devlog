@@ -1,4 +1,4 @@
-const label = '코드 복사'
+const label = 'Copy code'
 
 document.querySelectorAll('pre > code').forEach((codeBlock) => {
   const button = document.createElement('button')
@@ -10,9 +10,9 @@ document.querySelectorAll('pre > code').forEach((codeBlock) => {
   button.addEventListener('click', async () => {
     try {
       await navigator.clipboard.writeText(codeBlock.innerText)
-      button.title = '복사했습니다'
+      button.title = 'Copied'
     } catch {
-      button.title = '코드를 선택해 복사해 주세요'
+      button.title = 'Select the code to copy'
     }
     button.setAttribute('aria-label', button.title)
   })

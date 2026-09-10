@@ -4,7 +4,7 @@
       <a href="{{ .RelPermalink }}" class="post-card-link">
           {{ $hero:= partial "helpers/get-hero.html" (dict "context" . "width" "500x") }}
           <img class="card-img-top" src='{{ $hero.RelPermalink }}'
-            alt="{{ .Title }} 대표 이미지" loading="lazy">
+            alt="{{ .Title }} featured image" loading="lazy">
       </a>
     </div>
     <div class="card-body">

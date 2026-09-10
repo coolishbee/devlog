@@ -1,51 +1,56 @@
 section:
-  name: 기술
+  name: Skills
   id: skills
   enable: true
   weight: 2
   showOnNavbar: true
   filter: true
-
 buttons:
-  - name: 전체
+  - name: All
     filter: all
-  - name: 프로그래밍 언어
+  - name: Basic
+    filter: basic
+  - name: Language
     filter: language
-  - name: 프레임워크와 라이브러리
-    filter: framework
-  - name: 개발 도구
-    filter: dev-tools
-  - name: 협업 도구
-    filter: communication
-  - name: 버전 관리
-    filter: version-control
-
+  - name: Container
+    filter: container
+  - name: Others
+    filter: others
 skills:
-  - name: 프로그래밍 언어
-    summary: C, C++, C#, Java, Objective-C, Go, Swift, Kotlin
-    categories: [language]
-
-  - name: 프레임워크와 라이브러리
-    summary: |
-      **C++:** STL, Win32, WinAPI, MFC, DirectX, Cocos2d-x, RideEngine, ZerodinEngine
-
-      **Unity:** WebRTC, NGUI, EZGUI, Prime31, GPGS, Firebase, Facebook, Amazon SDK, Kochava, GCM, Kakao, Bazaar SDK, G-Presto, Adbrix, BestHTTP, EasyAR, Vuforia, SQLite
-
-      **Android:** Retrofit2, Firebase, Google Sign-In, Facebook, Gson, ButterKnife, Google Play Billing, Maven, Gradle, Glide, FCM, Apple Login, Coroutines, Data Binding, ProGuard, ACRA
-
-      **iOS:** MVVM, RxSwift, AFNetworking, JSONModel, Firebase, Facebook, Apple Login, StoreKit, APNs, CocoaPods, Combine, Alamofire, SwiftUI, XCTest, SPM, Carthage, Core Data, Realm, PLCrashReporter
-
-      **Go:** Gin, Fyne, goquery, GORM, Redigo
-    categories: [framework]
-
-  - name: 개발 도구
-    summary: Visual Studio, Visual Studio Code, Android Studio, Xcode, Unity, Sublime Text, Hudson, Jenkins, Fastlane
-    categories: [dev-tools]
-
-  - name: 협업 도구
-    summary: Redmine, Jira, Confluence, Slack, Mantis, Trello, TaskWorld, JANDI
-    categories: [communication]
-
-  - name: 버전 관리
-    summary: SVN, GitHub, Bitbucket, GitLab, Bonobo Git, Azure DevOps
-    categories: [version-control]
+  - name: Kubernetes
+    logo: /images/sections/skills/kubernetes.png
+    summary: Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs.
+    categories: [container]
+    url: https://kubernetes.io/
+  - name: Go Development
+    logo: /images/sections/skills/go.png
+    summary: Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program.
+    categories: [basic, language]
+    url: https://golang.org/
+  - name: Cloud Computing
+    logo: /images/sections/skills/cloud.png
+    summary: Worked with most of the major clouds such as GCP, AWS, Azure etc.
+    categories: [others]
+  - name: Docker
+    logo: /images/sections/skills/docker.svg
+    summary: Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process.
+    categories: [container]
+    url: https://www.docker.com/
+  - name: Prometheus
+    logo: /images/sections/skills/prometheus.png
+    summary: Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters.
+    categories: [basic]
+    url: https://prometheus.io/
+  - name: Linux
+    logo: /images/sections/skills/linux.png
+    summary: Using as the main operating system. Capable of writing bash/shell scripts.
+    categories: [others]
+  - name: Git
+    logo: /images/sections/skills/git.png
+    summary: Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab.
+    categories: [basic]
+    url: https://git-scm.com/
+  - name: C++
+    logo: /images/sections/skills/c++.png
+    summary: Know basic C/C++ programming. Used for contest programming and problem solving.
+    categories: [basic, language]

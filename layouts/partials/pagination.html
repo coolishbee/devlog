@@ -1,20 +1,20 @@
 {{ with .Paginator }}
   {{ if gt .TotalPages 1 }}
-    <nav aria-label="글 목록 페이지 이동">
+    <nav aria-label="Post pagination">
       <ul class="pagination justify-content-center">
         {{ if .HasPrev }}
-          <li class="page-item"><a class="page-link" href="{{ .First.URL }}" aria-label="첫 페이지">처음</a></li>
-          <li class="page-item"><a class="page-link" href="{{ .Prev.URL }}" aria-label="이전 페이지">이전</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .First.URL }}" aria-label="First page">First</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .Prev.URL }}" aria-label="Previous page">Previous</a></li>
         {{ end }}
         {{ $current := .PageNumber }}
         {{ range .Pagers }}
           <li class="page-item{{ if eq .PageNumber $current }} active{{ end }}">
-            <a class="page-link" href="{{ .URL }}" aria-label="{{ .PageNumber }}번째 페이지"{{ if eq .PageNumber $current }} aria-current="page"{{ end }}>{{ .PageNumber }}</a>
+            <a class="page-link" href="{{ .URL }}" aria-label="Page {{ .PageNumber }}"{{ if eq .PageNumber $current }} aria-current="page"{{ end }}>{{ .PageNumber }}</a>
           </li>
         {{ end }}
         {{ if .HasNext }}
-          <li class="page-item"><a class="page-link" href="{{ .Next.URL }}" aria-label="다음 페이지">다음</a></li>
-          <li class="page-item"><a class="page-link" href="{{ .Last.URL }}" aria-label="마지막 페이지">마지막</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .Next.URL }}" aria-label="Next page">Next</a></li>
+          <li class="page-item"><a class="page-link" href="{{ .Last.URL }}" aria-label="Last page">Last</a></li>
         {{ end }}
       </ul>
     </nav>

@@ -1,8 +1,8 @@
 ---
-title: 고 언어 노트
+title: Go Notes
 menu:
   notes:
-    name: 고 언어
+    name: Go
     identifier: notes-go
     weight: 10
 ---

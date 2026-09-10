@@ -1,8 +1,8 @@
 ---
-title: 유니티
+title: Unity
 menu:
   sidebar:
-    name: 유니티
+    name: Unity
     identifier: unity
     weight: 2
 ---

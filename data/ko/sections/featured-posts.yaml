@@ -1,10 +1,11 @@
 section:
-  name: 추천 글
+  name: Featured Posts
   id: featured-posts
   enable: true
-  weight: 7
+  weight: 6
   showOnNavbar: true
   hideTitle: false
 posts:
-  - markdown-sample
-  - shortcodes
+- /posts/unity/android-16kb-page-size/
+- /posts/unity/unity-deeplink/
+- /posts/project/gamepub-sdk/

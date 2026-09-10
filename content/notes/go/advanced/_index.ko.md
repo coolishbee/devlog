@@ -1,9 +1,9 @@
 ---
-title: 심화
+title: Advanced
 weight: 20
 menu:
   notes:
-    name: 심화
+    name: Advanced
     identifier: notes-go-advanced
     parent: notes-go
     weight: 20

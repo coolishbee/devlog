@@ -1,36 +1,22 @@
 section:
-  name: 소개
+  name: About Me
   id: about
   enable: true
   weight: 1
   showOnNavbar: true
   template: sections/about.html
-
 designation: 소프트웨어 엔지니어
-company:
-  name: 111퍼센트
-
-summary: >-
-  PC·모바일 게임 개발과 Android, iOS, Unity SDK 개발 경험을 쌓아온 소프트웨어 엔지니어입니다.
-  일상에서도 개발 관점으로 사용자의 불편을 발견하고 개선하는 일을 좋아하며, 새로운 기술과 흐름을 즐깁니다.
-  팀 협업과 커뮤니케이션을 중요하게 생각하고, 과거의 경험이 서로 연결되어 현재를 만든다는
-  ‘연결된 점’의 가치를 믿습니다. 필요한 단 한 사람에게라도 도움이 되는 도구를 만들고자
-  오픈 소스 프로젝트를 꾸준히 개발하고 있습니다.
-
+summary: "11년 차 개발자로 PC/모바일 게임 개발과 Android/iOS/Unity SDK 개발을 해왔습니다. 최근까지 <mark>Android, iOS, Unity SDK</mark>를 개발 했었으며, 언어는 Java, Kotlin, Objc, Swift, C# 를 사용했습니다.\n평소 일상생활에서도 개발에 관련해서 고민하고 사용자의 불편함을 개선하는 것을 좋아합니다. 그리고 항상 새로운 기술, 새로운 트렌드를 즐기고 있으며 팀 협업과 커뮤니케이션을 중요하게 생각하는 사람입니다.\n\n제가 좋아하는 말중 하나는 connected dot(연결된 점) 입니다.  \n모든 일들은 연결된 점과 같다. 과거에 한 일들이 서로 연결되어 현재를 만들어 낸다는 의미입니다. 이런 일들을 실제로 경험했었고 지금 이 순간에도 매번 증명하고 있습니다.\n그러므로 저는 인생의 모든 결정을 항상 실리적인 관점에서 내릴 필요는 없다고 생각합니다. \n매 순간 주어진 환경(상황)에서 최선을 다한다면 언젠가 그 일이 가치있는 일이 될거라 확신하기 때문입니다.\n\n그리고 약 1-2년 전부터 오픈소스 활동을 하게 되었는데 계기는 많은 개발자들과 협업할 기회가 적어서 방법을 찾다 보니 시작하게 되었고\n제가 만든 것들을 꼭 필요한 사람들이 단 한 명만이라도 쓴다면 그게 얼마나 의미 있는 일이란 것을 알게 되었습니다.\n세상의 변화를 직접 만들어갈 수 있는 직업군 중 하나가 개발자라고 생각하고 그것이 얼마나 가치 있는 일인지 경험하고 있습니다.\n"
 socialLinks:
-  - name: 이메일
-    icon: fas fa-envelope
-    url: mailto:chc3484@gmail.com
-  - name: GitHub
-    icon: fab fa-github
-    url: https://github.com/coolishbee
-  - name: Instagram
-    icon: fab fa-instagram
-    url: https://www.instagram.com/coolishbee
-  - name: 기술 블로그
-    icon: fas fa-globe
-    url: https://coolishbee.github.io/techblog
-
-resourceLinks:
-  - title: 이력서
-    url: files/resume.pdf
+- name: Email
+  icon: fas fa-envelope
+  url: chc3484@gmail.com
+- name: GitHub
+  icon: fab fa-github
+  url: https://github.com/coolishbee
+- name: Instagram
+  icon: fab fa-instagram
+  url: https://www.instagram.com/coolishbee
+- name: Tech Blog
+  icon: fas fa-globe
+  url: https://coolishbee.github.io/techblog

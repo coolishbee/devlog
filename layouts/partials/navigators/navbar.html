@@ -80,7 +80,7 @@
     {{ end }}
     <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
       {{ if $logo }}
-        <img src="{{ $logo }}" id="logo" alt="사이트 로고">
+        <img src="{{ $logo }}" id="logo" alt="Site logo">
       {{ end }}
       {{- $navBarTitle -}}
     </a>
@@ -90,7 +90,7 @@
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#top-nav-items"
-      aria-label="메뉴 열기"
+      aria-label="Open menu"
     >
       <i data-feather="menu"></i>
     </button>
@@ -158,12 +158,12 @@
   </div>
   <!-- Store the logo information in a hidden img for the JS -->
   {{ if $mainLogo }}
-    <img src="{{ $mainLogo }}" class="d-none" id="main-logo" alt="사이트 로고">
+    <img src="{{ $mainLogo }}" class="d-none" id="main-logo" alt="Site logo">
   {{ end }}
   {{ if $invertedLogo }}
-    <img src="{{ $invertedLogo }}" class="d-none" id="inverted-logo" alt="반전 색상 로고">
+    <img src="{{ $invertedLogo }}" class="d-none" id="inverted-logo" alt="Inverted logo">
   {{ end }}
   {{ if $darkLogo }}
-    <img src="{{ $darkLogo }}" class="d-none" id="dark-logo" alt="어두운 화면 로고">
+    <img src="{{ $darkLogo }}" class="d-none" id="dark-logo" alt="Dark mode logo">
   {{ end }}
 </nav>

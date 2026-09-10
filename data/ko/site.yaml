@@ -1,11 +1,9 @@
-copyright: © 2020 저작권 보유.
+copyright: © 2020 Copyright.
 disclaimer: >-
-  이 테마는 MIT 라이선스로 제공됩니다. 비상업적·상업적·개인적 용도로 사용할 수 있으며,
-  테마 작성자의 별도 허가 없이 수정하거나 배포할 수 있습니다.
-  다만 테마 작성자는 어떠한 보증도 제공하지 않으며 테마 사용으로 발생한 문제에 책임을 지지 않습니다.
+  This theme is released under the MIT License. You may use, modify, and distribute it for non-commercial, commercial, and personal purposes without the author's permission. The theme author provides no warranty and accepts no liability for issues caused by its use.
 description: 소프트웨어 엔지니어 천현철의 포트폴리오와 개발 블로그입니다.
 customMenus:
-  - name: 사용 가이드
+  - name: Docs
     url: https://toha-docs.netlify.app/posts/
     hideFromNavbar: false
     showOnFooter: false
@@ -13,5 +11,5 @@ openGraph:
   title: 천현철의 개발 블로그
   type: website
   description: 소프트웨어 엔지니어 천현철의 포트폴리오와 개발 블로그입니다.
-  image: images/author/john.png
+  image: images/author/profile.png
   url: https://coolishbee.github.io/devlog/

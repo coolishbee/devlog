@@ -1,8 +1,8 @@
 ---
-title: 배시 노트
+title: Bash Notes
 menu:
   notes:
-    name: 배시
+    name: Bash
     identifier: notes-bash
     weight: 20
 ---

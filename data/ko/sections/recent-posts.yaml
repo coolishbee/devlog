@@ -1,6 +1,6 @@
 section:
-  name: 최근 글
+  name: Recent Posts
   id: recent-posts
   enable: true
-  weight: 8
+  weight: 7
   showOnNavbar: true

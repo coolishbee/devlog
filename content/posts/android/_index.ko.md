@@ -1,8 +1,8 @@
 ---
-title: 안드로이드
+title: Android
 menu:
   sidebar:
-    name: 안드로이드
+    name: Android
     identifier: android
     weight: 3
 ---
