@@ -324,7 +324,3 @@ readelf -lW libEmulatorDetector.so | grep LOAD
 ## 참고
 
 - [16KB 페이지 크기 지원 — Android 개발자 문서](https://developer.android.com/guide/practices/page-sizes?hl=ko)
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/unity/android-16kb-page-size/)

@@ -30,13 +30,9 @@ menu:
 
 ## 설계
 
-![광고 수익 보고서 자동화 참고 화면](images/adsreportdbupload.png)
+![AdsReportDBUpload](images/adsreportdbupload.png)
 
 ## 프로젝트 관리
 
 * 도커로 배포
 * 젠킨스 빌드 배포 자동화
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/project/ad-report-admin/)

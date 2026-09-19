@@ -28,7 +28,7 @@ menu:
 
 #### 젠킨스 파라미터 설정
 
-![젠킨스와 파이썬으로 게임 운영 자동화 참고 화면](images/189065003-7a076188-9748-4a1a-aeb9-f15905a4c007.png)
+![img-banner](images/189065003-7a076188-9748-4a1a-aeb9-f15905a4c007.png)
 
 #### 젠킨스 쉘스크립트로 실행될 파이썬 스크립트
 
@@ -124,7 +124,7 @@ update_banner_name(filename, file_list)
 
 #### 슬랙메시지 알람 연동
 
-![젠킨스와 파이썬으로 게임 운영 자동화 참고 화면](images/190053902-dca73d9c-97c4-4edf-8224-e5057a6ad7e5.png)
+![slack-msg](images/190053902-dca73d9c-97c4-4edf-8224-e5057a6ad7e5.png)
 
 ### 게임서버 점검
 
@@ -134,7 +134,7 @@ update_banner_name(filename, file_list)
 
 #### 젠킨스 파라미터 설정
 
-![젠킨스와 파이썬으로 게임 운영 자동화 참고 화면](images/189065057-e89d4293-07ce-468d-accf-43e94771e2fe.png)
+![maintenance](images/189065057-e89d4293-07ce-468d-accf-43e94771e2fe.png)
 
 #### 젠킨스 쉘스크립트로 실행될 파이썬 스크립트
 
@@ -194,8 +194,4 @@ update_Maintenance(notice)
 
 #### 슬랙메시지 알람 연동
 
-![젠킨스와 파이썬으로 게임 운영 자동화 참고 화면](images/190053924-8d3d5dea-17fa-4204-b399-1417c40f73c8.png)
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/project/jenkins-python/)
+![slack-msg](images/190053924-8d3d5dea-17fa-4204-b399-1417c40f73c8.png)

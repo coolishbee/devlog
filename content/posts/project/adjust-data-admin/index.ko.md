@@ -31,13 +31,9 @@ CSV row 데이터는 스토리지에 보관하고 있지만 빅쿼리사용시�
 
 ## 설계
 
-![마케팅 지표 관리 도구 개발 참고 화면](images/adjustdbupload.png)
+![AdjustDBUpload](images/adjustdbupload.png)
 
 ## 프로젝트 관리
 
 * 젠킨스로 도커배포
 * 젠킨스 빌드 배포 자동화
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/project/adjust-data-admin/)

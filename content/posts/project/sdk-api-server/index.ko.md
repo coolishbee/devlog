@@ -74,15 +74,15 @@ mariadb가 메인디비였고 redis는 메인디비 부하를 막아줄 용도�
 
 ### 프로젝트 구조
 
-| 구조 | 설명 |
+| Image      | Description                          |
 | ----------- | ------------------------------------ |
-| <img src="images/project-dir.png" width="150" loading="lazy" alt="서버 프로젝트 디렉터리 구조"> | • conf : 데이터베이스 접속 및 시스템 설정 파일<br>• docs : swagger 설정<br>• models : 데이터베이스 연결 및 요청<br>• app : 요청과 응답에 대한 정의<br>• config : conf 파일리더기<br>• e : 예외처리<br>• file : 파일 및 폴더 io 관련<br>• geoip : geoip 관리<br>• gredis : redis db 연결 및 요청<br>• iap : 결제 영수증 검증<br>• logging : 로그 저장 및 관리<br>• setting : 서버 설정<br>• util : 유틸리티<br>• routers : 라우터 및 api 정의<br>• service : api에서 db 요청을 연결하는 서비스<br>  |
+| <img src="images/project-dir.png" width="150" loading="lazy" alt="Image title"> | • conf : 데이터베이스 접속 및 시스템 설정 파일<br>• docs : swagger 설정<br>• models : 데이터베이스 연결 및 요청<br>• app : 요청과 응답에 대한 정의<br>• config : conf 파일리더기<br>• e : 예외처리<br>• file : 파일 및 폴더 io 관련<br>• geoip : geoip 관리<br>• gredis : redis db 연결 및 요청<br>• iap : 결제 영수증 검증<br>• logging : 로그 저장 및 관리<br>• setting : 서버 설정<br>• util : 유틸리티<br>• routers : 라우터 및 api 정의<br>• service : api에서 db 요청을 연결하는 서비스<br>  |
 
 ### 문서
 
 테스트 환경과 문서를 동시에 개발할 수 있는 [swagger](https://github.com/swaggo/swag)를 사용했습니다.
 
-## 관리 도구
+## Admin
 
 프론트는 vue.js를 백엔드는 go를 사용하여 개발하였으며 저는 front와 backend 두 프로젝트를 함께 관리할 수 있도록
 하는 연동적인 부분과 빌드, 배포 관련해서만 기여하였습니다.
@@ -92,7 +92,7 @@ mariadb가 메인디비였고 redis는 메인디비 부하를 막아줄 용도�
 빌드 및 배포를 해야 할 서비스가 많기 때문에 자동화에 신경을 많이 썼습니다.
 그리고 라이브서버는 aws ECR 을 사용했기 때문에 매번 배포때 마다 인증이 필요합니다.
 
-### 아마존 웹 서비스 명령줄 도구
+### AWS CLI
 
 * [aws cli 도구 설치](https://docs.aws.amazon.com/ko_kr/AmazonECR/latest/userguide/getting-started-cli.html)
 * [aws configure](https://docs.aws.amazon.com/ko_kr/cli/latest/userguide/cli-configure-files.html) 설정
@@ -100,8 +100,4 @@ mariadb가 메인디비였고 redis는 메인디비 부하를 막아줄 용도�
 
 ### 배포 구조
 
-![서버 배포 구조](images/serverarchitecture.png)
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/project/sdk-api-server/)
+![ServerArchitecture](images/serverarchitecture.png)

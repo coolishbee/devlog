@@ -58,7 +58,7 @@ iOS SDK 경우에는 배포사이클이 길다보니 [Pipeline](https://www.jenk
 - Deploy
 
 
-![패스트레인과 젠킨스로 SDK 배포 자동화 참고 화면](images/148344197-acd533cd-1c06-492a-8043-450cc4439ef9.png)
+![](images/148344197-acd533cd-1c06-492a-8043-450cc4439ef9.png)
 
 
 ## 유니티 Android 빌드
@@ -78,12 +78,8 @@ iOS SDK 경우에는 배포사이클이 길다보니 [Pipeline](https://www.jenk
 - apk 업로드
 
 
-![패스트레인과 젠킨스로 SDK 배포 자동화 참고 화면](images/148345487-79015afc-4bfc-4348-9230-73fb43a16711.png)
+![](images/148345487-79015afc-4bfc-4348-9230-73fb43a16711.png)
 
-![패스트레인과 젠킨스로 SDK 배포 자동화 참고 화면](images/148345509-eda7f14d-85de-42f5-9e7b-df1e437586d2.png)
+![](images/148345509-eda7f14d-85de-42f5-9e7b-df1e437586d2.png)
 
-![패스트레인과 젠킨스로 SDK 배포 자동화 참고 화면](images/148345858-8a08d16d-cba6-42b6-bed2-5e07570d316d.png)
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/project/jenkins-sdk-build-deploy/)
+![](images/148345858-8a08d16d-cba6-42b6-bed2-5e07570d316d.png)

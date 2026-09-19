@@ -28,9 +28,9 @@ c# 으로만 개발된 SDK 였기 때문에 네이티브 기능도 사용할 수
 기본적인 목표는 다른 유니티 SDK 와 같이 C# Interface로 Android, iOS 간에 차이 없이 사용 가능하게 제공하는 거였고
 이를 위해 구성한 SDK 구조는 다음과 같습니다.
 
-![게임펍 SDK 전체 구조](images/gamepub-sdk.png)
+![sdk-diagram](images/gamepub-sdk.png)
 
-## 유니티 SDK
+## Unity SDK
 
 Unity에서는 그동안 계속해서 [네이티브 플러그인](https://docs.unity3d.com/kr/2021.3/Manual/Plugins.html)에 대한 지원이 발전되고 있었습니다. 이것을 이용해서 Native SDK 를 래핑하는 Unity용 Android Bridge 프로젝트를 만들었습니다.<br>
 이렇게 했을 때 얻을 수 있는 장점은 사용자 API 인터페이스만 바뀌지 않는다면 네이티브 SDK 구현부 배포를 원격으로 할 수 있다는 점입니다.
@@ -41,7 +41,7 @@ Unity에서는 그동안 계속해서 [네이티브 플러그인](https://docs.u
 * Android : Unity에서 제공되는 [AndroidJavaObject](https://docs.unity3d.com/ScriptReference/AndroidJavaObject.html)를 사용하여 각 네이티브 메서드를 호출합니다.
 
 
-#### iOS 인터페이스
+#### iOS interface
 
 ```csharp
 [DllImport("__Internal")]
@@ -52,7 +52,7 @@ public static void Login(string identifier) {
 ```
 
 
-#### 안드로이드 인터페이스
+#### Android interface
 
 ```csharp
 public static void Login(string identifier) {
@@ -102,14 +102,14 @@ UnitySendMessage("NativeListener", "CallbackMethod", "json with identifier");
 ```
 
 
-#### 안드로이드
+#### Android
 
 ```java
 UnityPlayer.UnitySendMessage("NativeListener", "CallbackMethod", "json with identifier")
 ```
 
 
-#### 유니티
+#### Unity
 
 ```csharp
 void CallbackMethod(string json) {
@@ -121,7 +121,7 @@ void CallbackMethod(string json) {
 전달받은 identifier를 확인하면 어떤 API가 호출했는지 알 수 있기 때문에 하나의 메소드 정의로 여러 다수의 API를 처리하는 장점을 갖습니다.<br>
 이렇게 이러한 방법을 통해 네이티브와 Unity C# 간에 데이터를 주고 받습니다.
 
-## 안드로이드 SDK
+## Android SDK
 
 첫 번째 버전은 자바로 개발했었고 출시 이후 조금씩 코틀린으로 전환해나갔습니다. 다행히 자바와 코틀린은 한 프로젝트 내에서도 문제없이
 작동하였고 추후 새로운 코틀린 프로젝트를 동일한 maven repository에 업로드하여 사용할 수 있어서 생각보다 쉽게 전환할 수 있었습니다.
@@ -133,11 +133,11 @@ Unity는 공식적으로 Gradle 빌드 시스템을 지원하기 때문에 네�
 
 ### 소셜 로그인 및 인증
 
-![로그인과 인증 흐름](images/auth.png)
+![auth](images/auth.png)
 
 ### 결제
 
-![인앱 결제 흐름](images/iap.png)
+![iap](images/iap.png)
 
 결제 모듈 통합
 
@@ -280,7 +280,7 @@ fun login(reqBody: ReqLogin,
 }
 ```
 
-사용 예:
+Usage :
 ```kotlin
 val reqLogin = ReqLogin.createReqLogin(socialProfile)
 HttpClient.login(reqLogin,
@@ -358,7 +358,7 @@ dependencies {
 
 #### 배포 구조
 
-![게임펍 SDK 개발기 참고 화면](images/gamepubsdk-android-deploy.png)
+![GamepubSDK-Android-Deploy](images/gamepubsdk-android-deploy.png)
 
 
 ## iOS SDK
@@ -508,7 +508,7 @@ public enum PubHttpClient {
 ```
 
 
-사용 예:
+Usage :
 ```swift
 let reqLogin = ReqLogin(profile: socialProfile)
 
@@ -539,9 +539,9 @@ Unity iOS에서 Framework를 추가하는 방법은 Unity Editor에서 추가하
 
 #### 배포 구조
 
-![게임펍 SDK 개발기 참고 화면](images/gamepubsdk-ios-deploy.png)
+![GamepubSDK-iOS-Deploy](images/gamepubsdk-ios-deploy.png)
 
-### 단위 테스트
+### Unit Test
 
 iOS의 경우엔 안드로이드와 달리 Swift로 구현된 API를 Objective-C 에서 호출하려면 제약이 따릅니다.<br>
 말하자면 Objective-C 에서 Swift로 개발한 API들이 정상적으로 호출이 가능한지 제대로 작동되는지 체크하려면 Unity iOS 빌드해서
@@ -551,19 +551,19 @@ iOS의 경우엔 안드로이드와 달리 Swift로 구현된 API를 Objective-C
 
 
 {{% alert type="info" %}}
-**예제**
+**Example**
 
 이렇게 하면 Unity로 배포되기 전 미리 테스트를 해볼 수 있습니다.
 
 
-#### Objective-C
+#### Objc
 
-![게임펍 SDK 개발기 참고 화면](images/xctest-unit01.png)
+![xctest-unit01](images/xctest-unit01.png)
 
 
 #### Swift
 
-![게임펍 SDK 개발기 참고 화면](images/xctest-unit02.png)
+![xctest-unit02](images/xctest-unit02.png)
 
 
 {{% /alert %}}
@@ -714,8 +714,4 @@ class AppleLoginBrowserFallback : AppleLoginFallback{
 무료사용이 가능한 gitbook에 대해 알고 나서는 바로 gitbook으로 갈아탔다.<br>
 이 gitbook의 장점은 참 많은데 우리 상황에서 가장 매력적인 부분은 돈 안 들이고 커스텀 도메인을 설정할 수 있다는 점이었다.
 
-[Gamepub SDK 가이드 문서](https://docs.igamepub.co.kr/)
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/project/gamepub-sdk/)
+[Gamepub SDK 가이드 문서](https://docs.igamepub.co.kr/sdk-guide/get-started)

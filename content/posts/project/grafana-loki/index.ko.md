@@ -42,15 +42,15 @@ Promtail에서 받은 로그를 저장합니다.
 Loki의 데이터를 시각화합니다.
 ```
 
-![그라파나와 로키로 장애 로그 모니터링 구축 참고 화면](images/grafana-loki01.png)
-![그라파나와 로키로 장애 로그 모니터링 구축 참고 화면](images/grafana-loki02.png)
-![그라파나와 로키로 장애 로그 모니터링 구축 참고 화면](images/grafana-loki03.png)
+![](images/grafana-loki01.png)
+![](images/grafana-loki02.png)
+![](images/grafana-loki03.png)
 
 ## 설계 및 다이어그램
 
-![로그 수집과 시각화 구조](images/grafanaloki.png)
+![grafana-loki](images/grafanaloki.png)
 
-## 로키
+## Loki
 
 Grafana Loki는 다른 logging system과 다르게 log의 label만 indexing 하고 message는 indexing하지 않으므로 더 가볍게 설계됐습니다.<br>
 그리고 loki로 전달된 log는 index(label) 와 chunk(message)로 나뉘어 저장됩니다.<br>
@@ -63,7 +63,3 @@ Grafana Loki는 다른 logging system과 다르게 log의 label만 indexing 하�
 * 확장성 : 대규모 설치를 위한 확장가능한 설계 구조, 각 마이크로서비스 구성요소는 별도의 프로세스로 나누어 구성 가능함
 * agent 유연성 : 많은 agent가 플러그인으로 지원함
 * grafana 통합 : grafana와 원활하게 통합되어 stack으로 제공
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/project/grafana-loki/)

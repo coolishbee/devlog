@@ -265,7 +265,3 @@ entitlement를 지정하지 않은 재서명은 프로비저닝 프로파일 기
 - [AppsFlyer OneLink 템플릿 생성](https://support.appsflyer.com/hc/en-us/articles/207032246-Create-a-OneLink-template)
 - [AppsFlyer OneLink 문제 해결과 자주 묻는 질문](https://support.appsflyer.com/hc/en-us/articles/360014821438-OneLink-troubleshooting-and-FAQ)
 - [AppsFlyer Unity 플러그인 딥링크 통합](https://github.com/AppsFlyerSDK/appsflyer-unity-plugin/blob/master/docs/DeepLinkIntegrate.md)
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/unity/unity-deeplink/)

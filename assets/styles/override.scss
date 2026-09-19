@@ -4,3 +4,39 @@
     overflow-x: clip;
   }
 }
+
+// 본문의 비교 이미지를 나란히 표시하고 작은 화면에서는 세로로 배치합니다.
+.page-content .image-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+
+  .image-pair__item {
+    min-width: 0;
+    margin: 0;
+  }
+
+  .image-pair__link {
+    display: block;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9em;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .page-content .image-pair {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

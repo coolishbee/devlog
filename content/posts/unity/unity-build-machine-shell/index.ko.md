@@ -19,7 +19,7 @@ menu:
 
 ## 빌드 파라미터를 받을 수 있게 구성에서 매개변수 설정
 
-![셸 스크립트와 유니티로 빌드 머신 구축 참고 화면](images/148345487-79015afc-4bfc-4348-9230-73fb43a16711.png)
+![jenkins](images/148345487-79015afc-4bfc-4348-9230-73fb43a16711.png)
 
 ## shell script 로 유니티 함수 호출
 
@@ -120,7 +120,3 @@ public class BuildMenu : ScriptableObject
     }
 }
 ```
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/unity/unity-build-machine-shell/)

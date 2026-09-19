@@ -15,10 +15,6 @@ menu:
     weight: 120
 ---
 
-{{% alert type="info" %}}
-이 글은 당시의 저장소와 도구를 사용한 배포 기록입니다. 아래 절차와 화면은 원문 작성 시점을 기준으로 합니다.
-{{% /alert %}}
-
 bintray 플러그인이 몇가지 있지만 com.novoda.bintray-release 을 사용하였다.
 
 
@@ -27,9 +23,9 @@ bintray 플러그인이 몇가지 있지만 com.novoda.bintray-release 을 사�
 1. [가입하기](https://bintray.com)
 2. bintray Repository 생성(github repo가 아님)
 
-![안드로이드 SDK 제이센터 배포 기록 참고 화면](images/96668623-8e65f200-1396-11eb-8e26-42d474a669a9.png)
+![add new repo](images/96668623-8e65f200-1396-11eb-8e26-42d474a669a9.png)
 
-![안드로이드 SDK 제이센터 배포 기록 참고 화면](images/96668631-90c84c00-1396-11eb-80c7-76dd21fbdc16.png)
+![create](images/96668631-90c84c00-1396-11eb-80c7-76dd21fbdc16.png)
 
 * Name : bintray Repository 이름
 * Type : Maven 으로 설정하면 jcenter 도 사용가능
@@ -46,7 +42,7 @@ bintray 플러그인이 몇가지 있지만 com.novoda.bintray-release 을 사�
 
 jcenter배포가 불가능하다.
 
-### build.gradle(project)
+##### build.gradle(project)
 
 ```java
 buildscript {
@@ -68,7 +64,7 @@ buildscript {
 gradle 버전과 novoda 버전 호환성도 이슈가 있었다. (gradle 4.x.x 로 했더니 배포가 안되는 버그가 있었음)
 
 
-#### build.gradle(sdk)
+##### build.gradle(sdk)
 
 ```groovy
 apply plugin: 'com.android.library'
@@ -189,7 +185,7 @@ subprojects {
 
 * subprojects :
 
-![안드로이드 SDK 제이센터 배포 기록 참고 화면](images/96670632-c4a57080-139a-11eb-82d1-54ee4841f54f.png)
+![bintrayUpload](images/96670632-c4a57080-139a-11eb-82d1-54ee4841f54f.png)
 
 bintrayUpload 하면 배포된다. bintray 콘솔창에 가보면 라이브러리가 업로드된 걸 확인할 수 있다.
 
@@ -205,9 +201,9 @@ Gihub 프로젝트가 public 이면 검수보내고 몇분뒤에 jcenter 에 배
 만약에 소스공개가 어려운 경우엔 이 방법을 쓸 수 있다.
 
 
-### maven 주소 복사하기
+#### maven 주소 복사하기
 
-![안드로이드 SDK 제이센터 배포 기록 참고 화면](images/96678487-c4ae6c00-13ac-11eb-8075-3cde6075aef5.png)
+![url copy](images/96678487-c4ae6c00-13ac-11eb-8075-3cde6075aef5.png)
 
 
 #### maven url 사용하기
@@ -244,7 +240,3 @@ dependencies {
     implementation 'com.universal.sdk:universalsdk:0.1.16'
 }
 ```
-
----
-
-[기술 블로그에서 원문 보기](https://coolishbee.github.io/techblog/android/jcenter/)
