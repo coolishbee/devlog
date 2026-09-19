@@ -191,3 +191,45 @@
     --post-subsection-gap: 1.5rem;
   }
 }
+
+// 경력의 업무 구분은 기술 태그와 구별되는 소제목으로 표시합니다.
+.experiences-section .experience-description h5 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.experiences-section .positions .designation {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+// 기술 배지가 있는 경우에만 다음 업무 설명과의 간격을 확보합니다.
+.experiences-section .experience-quote:has(.experience-tech-badge) {
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  + .experience-description {
+    padding-top: 1.5rem;
+  }
+}
+
+// 기술 키워드는 테마의 글자색을 따르는 테두리 배지로 구분합니다.
+.experience-quote .experience-tech-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  margin-inline-end: 4px;
+  margin-block-end: 6px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  vertical-align: middle;
+}

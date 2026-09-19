@@ -10,9 +10,10 @@ experiences:
   caption: 2024.08 ~ 현재
   designation: 플랫폼 클라이언트 개발자
   quote: |
-    <mark>Unity</mark> <mark>C#</mark> <mark>Android</mark> <mark>iOS</mark> <mark>SDK</mark> <mark>Framework</mark>
+    <span class="experience-tech-badge">Unity</span> <span class="experience-tech-badge">C#</span> <span class="experience-tech-badge">Android</span> <span class="experience-tech-badge">iOS</span> <span class="experience-tech-badge">SDK</span> <span class="experience-tech-badge">Framework</span>
   description: |
-    <mark>공용 SDK 및 게임 프레임워크 개발</mark>
+    ##### 공용 SDK 및 게임 프레임워크 개발
+
     - 111퍼센트 게임 전반에서 사용하는 공용 SDK 설계 및 개발
     - 인증, 결제, 광고, 로깅, 빌드, 패키지 개발
     - 유니티 앱링크·유니버설 링크 지원 공용 패키지 개발
@@ -21,14 +22,16 @@ experiences:
     - [Unity 딥링크 트러블슈팅](posts/unity/unity-deeplink/)
     - [Android 16KB 페이지 크기 대응](posts/unity/android-16kb-page-size/)
 
-    <mark>통합 플랫폼 SDK 개발</mark>
+    ##### 통합 플랫폼 SDK 개발
+
     - 유니티·안드로이드·iOS를 지원하는 통합 플랫폼 개발 도구 모음 설계·개발 및 운영
     - 인증·결제·푸시 등 게임 공통 기능과 플랫폼 연동 모듈 개발
     - 유니티와 안드로이드·iOS 네이티브 간 연동 구조 및 공통 인터페이스 설계
     - 운영체제·단말·유니티 버전에 따른 호환성 문제 분석 및 대응
     - 개발 도구 모음의 빌드·배포·버전 관리와 하위 호환성 유지, 지속적인 품질 개선
 
-    <mark>주요 성과</mark>
+    ##### 주요 성과
+
     - 빌드 안정화로 배포 신뢰성 향상
     - 재사용 가능한 공통 모듈 개발
     - 운빨존많겜·협동타워디펜스 빌드 장애 대응 및 배포 안정화
@@ -39,8 +42,8 @@ experiences:
   caption: 2020.03 ~ 2023.07
   designation: SDK Developer
   quote: |
-    <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Kotlin</mark> <mark>Swift</mark> <mark>Maven</mark> <mark>Gradle</mark> <mark>Cocoapod</mark> <mark>Fastlane</mark> <mark>Go</mark> <mark>Docker</mark>
-  description: "<mark>Gamepub SDK 개발</mark>\n- [Android, iOS, Unity SDK 개발](posts/project/gamepub-sdk/)\n- 소셜 로그인(Google, Facebook, Apple)\n- 인앱 결제(Google, Apple, OneStore, GalaxyStore)\n- Push(FCM, APNS)\n- 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))\n- [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)\n- [fastlane과 Jenkins를 이용한 SDK 배포 자동화](posts/project/jenkins-sdk-build-deploy/)\n- [Android SDK Jcenter 배포](posts/android/jcenter/)\n- [Android SDK Maven 배포(Sonatype 을 통한 배포)](posts/android/maven-deploy/)\n- [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)            \n\n<mark>사내 백오피스 개발</mark>\n- [게임서비스 관련 스케쥴러](posts/project/jenkins-python/)\n- [광고수익 보고서](posts/project/ad-report-admin/)\n- [Adjust 마케팅 지표](posts/project/adjust-data-admin/)\n"
+    <span class="experience-tech-badge">Unity</span> <span class="experience-tech-badge">C#</span> <span class="experience-tech-badge">AndroidJava</span> <span class="experience-tech-badge">Objective-C</span> <span class="experience-tech-badge">Kotlin</span> <span class="experience-tech-badge">Swift</span> <span class="experience-tech-badge">Maven</span> <span class="experience-tech-badge">Gradle</span> <span class="experience-tech-badge">Cocoapod</span> <span class="experience-tech-badge">Fastlane</span> <span class="experience-tech-badge">Go</span> <span class="experience-tech-badge">Docker</span>
+  description: "##### Gamepub SDK 개발\n\n- [Android, iOS, Unity SDK 개발](posts/project/gamepub-sdk/)\n- 소셜 로그인(Google, Facebook, Apple)\n- 인앱 결제(Google, Apple, OneStore, GalaxyStore)\n- Push(FCM, APNS)\n- 네트워크 통신([Retrofit2 + Coroutine](https://github.com/coolishbee/retrofit2-coroutine-example), [Alamofire](https://github.com/coolishbee/AlamofireExample))\n- [Unity Package Export Tool](https://github.com/coolishbee/unity-export-package-tool)\n- [fastlane과 Jenkins를 이용한 SDK 배포 자동화](posts/project/jenkins-sdk-build-deploy/)\n- [Android SDK Jcenter 배포](posts/android/jcenter/)\n- [Android SDK Maven 배포(Sonatype 을 통한 배포)](posts/android/maven-deploy/)\n- [SDK 사용 가이드 제공](https://docs.igamepub.co.kr)            \n\n##### 사내 백오피스 개발\n\n- [게임서비스 관련 스케쥴러](posts/project/jenkins-python/)\n- [광고수익 보고서](posts/project/ad-report-admin/)\n- [Adjust 마케팅 지표](posts/project/adjust-data-admin/)\n"
 - company:
     name: 프리랜서
     url: https://youtu.be/1voJ_RI_h1k
@@ -48,14 +51,14 @@ experiences:
   designation: Software Engineer
   quote: |
     5G 기반 자율주행 무인 경비로봇 원격제어 솔루션 개발
-  description: "<mark>custom opencv sdk 플러그인 개발</mark>\n- opencv dll 프로젝트에 연동\n- c++, c# 간에 통신하는 Interface 및 Data Convert 설계 및 개발            \n- 테스트용 c# winform 툴 개발(유니티에서 사용하기전 API TEST)            \n- c++ 쓰레드 구현.\n- opencv API 를 활용한 영상 스트리밍 시스템 구현.\n\n<mark>유니티 카메라뷰 프로그램</mark>\n- GUI(다중 모니터 활성화를 위한 UGUI Canvas 작업)\n- 소켓 통신 클라이언트 개발\n- custom opencv sdk 플러그인 연동\n- 영상 스트리밍 시스템\n- 다중 모니터 활성화 기능 구현\n\n<mark>유니티 로봇체험 프로그램</mark>\n- GUI(HUD)\n- 소켓 통신 클라이언트 개발\n- User Controller\n- custom opencv sdk 플러그인 연동\n- 영상 스트리밍 시스템\n- 360카메라 스트리밍 연동\n\n<mark>유니티 시스템제어 프로그램</mark>\n- GUI(미니맵 및 로봇상태, 로그 출력)\n- 소켓 통신 클라이언트 개발\n- google map static api 연동\n"
+  description: "##### custom opencv sdk 플러그인 개발\n\n- opencv dll 프로젝트에 연동\n- c++, c# 간에 통신하는 Interface 및 Data Convert 설계 및 개발            \n- 테스트용 c# winform 툴 개발(유니티에서 사용하기전 API TEST)            \n- c++ 쓰레드 구현.\n- opencv API 를 활용한 영상 스트리밍 시스템 구현.\n\n##### 유니티 카메라뷰 프로그램\n\n- GUI(다중 모니터 활성화를 위한 UGUI Canvas 작업)\n- 소켓 통신 클라이언트 개발\n- custom opencv sdk 플러그인 연동\n- 영상 스트리밍 시스템\n- 다중 모니터 활성화 기능 구현\n\n##### 유니티 로봇체험 프로그램\n\n- GUI(HUD)\n- 소켓 통신 클라이언트 개발\n- User Controller\n- custom opencv sdk 플러그인 연동\n- 영상 스트리밍 시스템\n- 360카메라 스트리밍 연동\n\n##### 유니티 시스템제어 프로그램\n\n- GUI(미니맵 및 로봇상태, 로그 출력)\n- 소켓 통신 클라이언트 개발\n- google map static api 연동\n"
 - company:
     name: 뮤엠교육
     url: https://mumenglish.com
   caption: 2017.09 ~ 2019.07
   designation: Unity Developer
   quote: |
-    <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Gitlab</mark> <mark>BonoboGit</mark> <mark>AndroidStudio</mark> <mark>Xcode</mark>
+    <span class="experience-tech-badge">Unity</span> <span class="experience-tech-badge">C#</span> <span class="experience-tech-badge">AndroidJava</span> <span class="experience-tech-badge">Objective-C</span> <span class="experience-tech-badge">Gitlab</span> <span class="experience-tech-badge">BonoboGit</span> <span class="experience-tech-badge">AndroidStudio</span> <span class="experience-tech-badge">Xcode</span>
   description: "- [뮤고박스 MU:GO BOX](https://play.google.com/store/apps/details?id=com.mum.qbox&hl=ko) 유니티 안드로이드 앱 개발            \n- 뮤고박스 교사용 PC 프로그램 개발(Unity Standalone)\n- [뮤고스쿨](https://youtu.be/jfDnUqAfB7w) 안드로이드 네이티브 앱 및 유니티 안드로이드 앱 개발(유치원 내부 서비스)\n- 뮤고스쿨 교사용 PC 프로그램 유지보수(c# winform 및 Unity Standalone)\n- [nsis](https://nsis.sourceforge.io) 를 이용한 PC 교사용 프로그램 배포시스템 구축\n- Jenkins 를 이용한 apk 및 에셋번들 빌드 자동화\n- 에셋번들 시스템\n- 데이터 시스템\n- 3D 캐릭터 및 환경\n- 카메라 시스템\n- [WebRTC](https://because-why-not.com/webrtc/) 를 이용한 소환수업 개발\n- 네트워크 시스템(HTTP, Socket, WebSocket) 연동\n"
 - company:
     name: Valofe
@@ -63,7 +66,7 @@ experiences:
   caption: 2017.03 ~ 2017.09
   designation: Unity Developer
   quote: |
-    <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>Xcode</mark> <mark>EZGUI</mark> <mark>Confluence</mark>
+    <span class="experience-tech-badge">Unity</span> <span class="experience-tech-badge">C#</span> <span class="experience-tech-badge">AndroidJava</span> <span class="experience-tech-badge">Objective-C</span> <span class="experience-tech-badge">Github</span> <span class="experience-tech-badge">SVN</span> <span class="experience-tech-badge">Redmine</span> <span class="experience-tech-badge">Xcode</span> <span class="experience-tech-badge">EZGUI</span> <span class="experience-tech-badge">Confluence</span>
   description: |
     - [삼국지를 품다](https://youtu.be/jPAnCZH47LI?si=Y-EyNWpwyNwg-xbA) Google, AppStore, OneStore, WebPlayer 빌드 배포 및 서비스
     - 대만 로컬라이징 및 신규런칭(마이카드 연동)
@@ -78,7 +81,7 @@ experiences:
   caption: 2016.07 ~ 2017.01
   designation: Unity Developer
   quote: |
-    <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>SVN</mark> <mark>Python</mark> <mark>VS2015</mark> <mark>Xcode</mark> <mark>NGUI</mark> <mark>Mantis</mark>
+    <span class="experience-tech-badge">Unity</span> <span class="experience-tech-badge">C#</span> <span class="experience-tech-badge">AndroidJava</span> <span class="experience-tech-badge">Objective-C</span> <span class="experience-tech-badge">SVN</span> <span class="experience-tech-badge">Python</span> <span class="experience-tech-badge">VS2015</span> <span class="experience-tech-badge">Xcode</span> <span class="experience-tech-badge">NGUI</span> <span class="experience-tech-badge">Mantis</span>
   description: |
     - [캡슐풋볼매니저](https://youtu.be/tp-BhJnaG6E?si=mvMrQXhhp17DyYfj) Android 이란 [바자르(로컬마켓)](https://developers.cafebazaar.ir/en/) 런칭
     - 이란 로컬라이징 및 SDK 연동
@@ -93,7 +96,7 @@ experiences:
   caption: 2015.04 ~ 2016.03
   designation: Unity Developer
   quote: |
-    <mark>Unity</mark> <mark>C#</mark> <mark>AndroidJava</mark> <mark>Objective-C</mark> <mark>Github</mark> <mark>Python</mark> <mark>VisualStudio</mark> <mark>Xcode</mark> <mark>JIRA</mark> <mark>Slack</mark> <mark>Trello</mark> <mark>NGUI</mark> <mark>Prime31</mark> <mark>Sublime Text</mark>
+    <span class="experience-tech-badge">Unity</span> <span class="experience-tech-badge">C#</span> <span class="experience-tech-badge">AndroidJava</span> <span class="experience-tech-badge">Objective-C</span> <span class="experience-tech-badge">Github</span> <span class="experience-tech-badge">Python</span> <span class="experience-tech-badge">VisualStudio</span> <span class="experience-tech-badge">Xcode</span> <span class="experience-tech-badge">JIRA</span> <span class="experience-tech-badge">Slack</span> <span class="experience-tech-badge">Trello</span> <span class="experience-tech-badge">NGUI</span> <span class="experience-tech-badge">Prime31</span> <span class="experience-tech-badge">Sublime Text</span>
   description: |
     - Android, iOS 빌드배포 및 서비스([워스토리](https://youtu.be/9fU7E_xth7w?si=E2sAsWGBLwDlbp2p), [킹덤스토리](https://youtu.be/jfQkQ4QGpbw?si=pxaggM0mXzh9wg7-))
     - Hudson 빌드시스템 유지보수 및 Jenkins 를 이용한 에셋번들 빌드 자동화
@@ -108,7 +111,7 @@ experiences:
   caption: 2013.08 ~ 2014.08
   designation: Global localization
   quote: |
-    <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>ZerodinEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Redmine</mark> <mark>VS2008</mark> <mark>IOCP</mark>
+    <span class="experience-tech-badge">C++</span> <span class="experience-tech-badge">MFC</span> <span class="experience-tech-badge">DirectX</span> <span class="experience-tech-badge">ZerodinEngine</span> <span class="experience-tech-badge">STL</span> <span class="experience-tech-badge">SVN</span> <span class="experience-tech-badge">Redmine</span> <span class="experience-tech-badge">VS2008</span> <span class="experience-tech-badge">IOCP</span>
   description: |
     - [불패온라인](https://youtu.be/dr72v1nc5Rc?si=ZuBpoAtBx4MMhqFL) 국내 라이브, 태국 서비스 런칭
     - 잭팟 시스템, 1:1 pvp 시스템, 아이템 교환시스템
@@ -121,7 +124,7 @@ experiences:
   caption: 2012.03 ~ 2013.05
   designation: Client Programmer
   quote: |
-    <mark>C++</mark> <mark>MFC</mark> <mark>DirectX</mark> <mark>RideEngine</mark> <mark>STL</mark> <mark>SVN</mark> <mark>Gantt</mark> <mark>VS2008</mark> <mark>IOCP</mark>
+    <span class="experience-tech-badge">C++</span> <span class="experience-tech-badge">MFC</span> <span class="experience-tech-badge">DirectX</span> <span class="experience-tech-badge">RideEngine</span> <span class="experience-tech-badge">STL</span> <span class="experience-tech-badge">SVN</span> <span class="experience-tech-badge">Gantt</span> <span class="experience-tech-badge">VS2008</span> <span class="experience-tech-badge">IOCP</span>
   description: |
     - [붉은보석2](https://youtu.be/Icc5gCXHhhY?si=S2--XD47octdZVgw) 온라인 신규개발
     - Tooltip, Skill UI, 시스템옵션
