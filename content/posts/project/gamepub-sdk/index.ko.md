@@ -1,5 +1,5 @@
 ---
-title: "게임펍 SDK 개발기"
+title: "Gamepub SDK"
 date: "2023-05-12T17:48:48+09:00"
 lastmod: "2024-12-16T21:21:20+09:00"
 description: "유니티와 안드로이드·iOS 네이티브를 연결하는 공용 SDK의 인증, 결제, 푸시와 배포 구조를 정리합니다."
@@ -9,7 +9,7 @@ categories: ["프로젝트"]
 hero: "images/gamepub-sdk.png"
 menu:
   sidebar:
-    name: "게임펍 SDK 개발기"
+    name: "Gamepub SDK"
     identifier: gamepub-sdk
     parent: project
     weight: 10
