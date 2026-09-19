@@ -1,5 +1,5 @@
 ---
-title: "마케팅 지표 관리 도구 개발"
+title: "마케팅 데이터 수집 자동화"
 date: "2023-03-03T16:59:46+09:00"
 lastmod: "2023-05-19T17:44:39+09:00"
 description: "어드저스트의 원시 데이터를 정제·저장하고 마케팅 부서가 직접 조회하고 추출할 수 있는 관리 도구를 구축했습니다."
@@ -9,7 +9,7 @@ categories: ["프로젝트"]
 hero: "images/adjustdbupload.png"
 menu:
   sidebar:
-    name: "마케팅 지표 관리 도구 개발"
+    name: "마케팅 데이터 수집 자동화"
     identifier: adjust-data-admin
     parent: project
     weight: 40
