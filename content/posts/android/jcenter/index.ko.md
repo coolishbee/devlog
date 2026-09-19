@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 SDK 제이센터 배포 기록"
+title: "Android SDK Jcenter 배포 기록"
 date: "2023-01-16T01:56:38+09:00"
 lastmod: "2023-01-16T01:56:38+09:00"
 description: "제이센터를 사용하던 당시 안드로이드 라이브러리 배포와 저장소 연동 과정을 기록합니다."
@@ -9,7 +9,7 @@ categories: ["안드로이드"]
 hero: "images/96668623-8e65f200-1396-11eb-8e26-42d474a669a9.png"
 menu:
   sidebar:
-    name: "안드로이드 SDK 제이센터 배포 기록"
+    name: "Android SDK Jcenter 배포 기록"
     identifier: jcenter
     parent: android
     weight: 120

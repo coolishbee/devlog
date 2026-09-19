@@ -1,5 +1,5 @@
 ---
-title: "고 언어로 구축한 SDK API 서버"
+title: "Go로 구축한 SDK API 서버"
 date: "2023-03-02T19:02:41+09:00"
 lastmod: "2023-11-24T17:45:16+09:00"
 description: "게임 공통 API 서버의 기술 선정, 데이터베이스 구성과 빌드·배포 과정에서 담당한 역할을 기록합니다."
@@ -9,7 +9,7 @@ categories: ["프로젝트"]
 hero: "images/project-dir.png"
 menu:
   sidebar:
-    name: "고 언어로 구축한 SDK API 서버"
+    name: "Go로 구축한 SDK API 서버"
     identifier: sdk-api-server
     parent: project
     weight: 20

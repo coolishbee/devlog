@@ -1,5 +1,5 @@
 ---
-title: "젠킨스와 파이썬으로 게임 운영 자동화"
+title: "Jenkins와 Python으로 게임 운영 자동화"
 date: "2023-01-16T01:56:38+09:00"
 lastmod: "2024-03-06T16:26:55+09:00"
 description: "이미지 배너 교체와 게임 서버 점검을 예약 실행하고 결과를 슬랙으로 알리는 운영 자동화를 구현했습니다."
@@ -9,7 +9,7 @@ categories: ["프로젝트"]
 hero: "images/189065003-7a076188-9748-4a1a-aeb9-f15905a4c007.png"
 menu:
   sidebar:
-    name: "젠킨스와 파이썬으로 게임 운영 자동화"
+    name: "Jenkins와 Python으로 게임 운영 자동화"
     identifier: jenkins-python
     parent: project
     weight: 80

@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 16KB 페이지 크기 대응"
+title: "Android 16KB 페이지 크기 대응"
 date: "2026-08-31T23:11:06+09:00"
 lastmod: "2026-08-31T23:41:53+09:00"
 description: "유니티 네이티브 플러그인의 ELF 정렬을 확인하고 NDK 빌드 설정을 수정해 16KB 페이지를 지원한 과정을 기록합니다."
@@ -9,7 +9,7 @@ categories: ["유니티"]
 hero: "images/android-16kb-support.png"
 menu:
   sidebar:
-    name: "안드로이드 16KB 페이지 크기 대응"
+    name: "Android 16KB 페이지 크기 대응"
     identifier: android-16kb-page-size
     parent: unity
     weight: 100

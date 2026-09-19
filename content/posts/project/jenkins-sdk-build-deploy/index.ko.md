@@ -1,5 +1,5 @@
 ---
-title: "패스트레인과 젠킨스로 SDK 배포 자동화"
+title: "fastlane과 Jenkins로 SDK 배포 자동화"
 date: "2023-01-16T01:56:38+09:00"
 lastmod: "2023-06-11T22:52:16+09:00"
 description: "모바일 SDK와 유니티 데모 앱의 반복적인 빌드·배포를 자동화한 과정을 정리합니다."
@@ -9,7 +9,7 @@ categories: ["프로젝트"]
 hero: "images/148344197-acd533cd-1c06-492a-8043-450cc4439ef9.png"
 menu:
   sidebar:
-    name: "패스트레인과 젠킨스로 SDK 배포 자동화"
+    name: "fastlane과 Jenkins로 SDK 배포 자동화"
     identifier: jenkins-sdk-build-deploy
     parent: project
     weight: 70

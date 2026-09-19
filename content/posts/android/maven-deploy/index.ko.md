@@ -1,5 +1,5 @@
 ---
-title: "안드로이드 SDK 메이븐 배포 기록"
+title: "Android SDK Maven 배포 기록"
 date: "2023-01-16T01:56:38+09:00"
 lastmod: "2023-06-08T19:16:45+09:00"
 description: "제이센터에서 메이븐으로 이전하며 진행한 계정 준비, 서명과 배포 스크립트 구성을 정리합니다."
@@ -9,7 +9,7 @@ categories: ["안드로이드"]
 hero: "images/117414676-63b64200-af52-11eb-8529-4eaf4523e4b3.png"
 menu:
   sidebar:
-    name: "안드로이드 SDK 메이븐 배포 기록"
+    name: "Android SDK Maven 배포 기록"
     identifier: maven-deploy
     parent: android
     weight: 130

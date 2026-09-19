@@ -1,5 +1,5 @@
 ---
-title: "유니티 딥링크 문제 해결: 젠킨스 빌드에서 유니버설 링크가 실패한 원인"
+title: "Unity 딥링크 문제 해결: Jenkins 빌드에서 Universal Link가 실패한 원인"
 date: "2026-08-29T17:07:08+09:00"
 lastmod: "2026-08-29T17:07:08+09:00"
 description: "로컬 빌드에서는 열리던 유니버설 링크가 배포본에서 실패한 원인을 최종 앱 서명과 재서명 로그로 추적했습니다."
@@ -8,7 +8,7 @@ tags: ["111퍼센트", "유니티", "딥링크", "iOS", "젠킨스"]
 categories: ["유니티"]
 menu:
   sidebar:
-    name: "유니티 딥링크 문제 해결: 젠킨스 빌드에서 유니버설 링크가 실패한 원인"
+    name: "Unity 딥링크 문제 해결: Jenkins 빌드에서 Universal Link가 실패한 원인"
     identifier: unity-deeplink
     parent: unity
     weight: 90

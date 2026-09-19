@@ -1,5 +1,5 @@
 ---
-title: "셸 스크립트와 유니티로 빌드 머신 구축"
+title: "Shell Script와 Unity로 빌드 머신 구축"
 date: "2023-01-16T01:56:38+09:00"
 lastmod: "2023-01-16T01:56:38+09:00"
 description: "젠킨스의 빌드 매개변수를 유니티 편집기 함수에 전달하고 플랫폼별 빌드에 사용하는 예제입니다."
@@ -9,7 +9,7 @@ categories: ["유니티"]
 hero: "images/148345487-79015afc-4bfc-4348-9230-73fb43a16711.png"
 menu:
   sidebar:
-    name: "셸 스크립트와 유니티로 빌드 머신 구축"
+    name: "Shell Script와 Unity로 빌드 머신 구축"
     identifier: unity-build-machine-shell
     parent: unity
     weight: 110

@@ -1,5 +1,5 @@
 ---
-title: "그라파나와 로키로 장애 로그 모니터링 구축"
+title: "Grafana와 Loki로 장애 로그 모니터링 구축"
 date: "2023-05-12T17:48:48+09:00"
 lastmod: "2023-11-24T17:45:16+09:00"
 description: "여러 서버의 로그를 한곳에 모아 서비스와 시간, 키워드로 검색하는 모니터링 환경을 구성했습니다."
@@ -9,7 +9,7 @@ categories: ["프로젝트"]
 hero: "images/grafana-loki01.png"
 menu:
   sidebar:
-    name: "그라파나와 로키로 장애 로그 모니터링 구축"
+    name: "Grafana와 Loki로 장애 로그 모니터링 구축"
     identifier: grafana-loki
     parent: project
     weight: 50
