@@ -78,6 +78,10 @@ Slack 알림에는 새 버전과 해당 변경 내역, 원문 링크를 담았�
 
 *버전 확인과 웹훅 발송 기록을 함께 살펴본다. 웹훅 주소는 가렸다.*
 
+<p><img src="crawler-slack-notification.png" alt="Slack으로 수신한 GoogleSignIn-iOS 9.2.0 업데이트 알림" loading="lazy" style="display: block; width: 70%; height: auto; margin-inline: auto;"></p>
+
+*Slack으로 수신한 GoogleSignIn-iOS 9.2.0 업데이트 알림*
+
 ## 트러블슈팅
 
 ### 사이트마다 다른 릴리즈 노트 형식

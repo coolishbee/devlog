@@ -41,7 +41,8 @@ Unity에서는 그동안 계속해서 [네이티브 플러그인](https://docs.u
 * Android : Unity에서 제공되는 [AndroidJavaObject](https://docs.unity3d.com/ScriptReference/AndroidJavaObject.html)를 사용하여 각 네이티브 메서드를 호출합니다.
 
 
-#### iOS interface
+{{< tabs id="sdk-interfaces" label="플랫폼별 API 요청" >}}
+{{< tab name="iOS interface" >}}
 
 ```csharp
 [DllImport("__Internal")]
@@ -51,8 +52,8 @@ public static void Login(string identifier) {
 }
 ```
 
-
-#### Android interface
+{{< /tab >}}
+{{< tab name="Android interface" >}}
 
 ```csharp
 public static void Login(string identifier) {
@@ -65,6 +66,8 @@ public static void Login(string identifier) {
 }
 ```
 
+{{< /tab >}}
+{{< /tabs >}}
 
 ### API 응답 방식
 
@@ -95,21 +98,22 @@ Unity에서 이 콜을 받으려면
 식별자를 사용해서 네이티브 API를 호출하고, 동일한 식별자를 UnitySendMessage 메서드를 통해 반환하면 비동기 작업을 호출한 주체를 식별할 수 있습니다.
 
 
-#### iOS
+{{< tabs id="sdk-callbacks" label="플랫폼별 API 응답" >}}
+{{< tab name="iOS" >}}
 
 ```csharp
 UnitySendMessage("NativeListener", "CallbackMethod", "json with identifier");
 ```
 
-
-#### Android
+{{< /tab >}}
+{{< tab name="Android" >}}
 
 ```java
 UnityPlayer.UnitySendMessage("NativeListener", "CallbackMethod", "json with identifier")
 ```
 
-
-#### Unity
+{{< /tab >}}
+{{< tab name="Unity" >}}
 
 ```csharp
 void CallbackMethod(string json) {
@@ -117,6 +121,9 @@ void CallbackMethod(string json) {
 }
 ```
 
+
+{{< /tab >}}
+{{< /tabs >}}
 
 전달받은 identifier를 확인하면 어떤 API가 호출했는지 알 수 있기 때문에 하나의 메소드 정의로 여러 다수의 API를 처리하는 장점을 갖습니다.<br>
 이렇게 이러한 방법을 통해 네이티브와 Unity C# 간에 데이터를 주고 받습니다.
@@ -556,15 +563,18 @@ iOS의 경우엔 안드로이드와 달리 Swift로 구현된 API를 Objective-C
 이렇게 하면 Unity로 배포되기 전 미리 테스트를 해볼 수 있습니다.
 
 
-#### Objc
+{{< tabs id="sdk-unit-tests" label="언어별 테스트 예제" >}}
+{{< tab name="Objc" >}}
 
 ![xctest-unit01](images/xctest-unit01.png)
 
-
-#### Swift
+{{< /tab >}}
+{{< tab name="Swift" >}}
 
 ![xctest-unit02](images/xctest-unit02.png)
 
+{{< /tab >}}
+{{< /tabs >}}
 
 {{% /alert %}}
 

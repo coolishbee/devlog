@@ -70,7 +70,7 @@
         {{ if site.Params.features.tags.enable }}
         {{partial "misc/tags.html" .Params.tags }}
         {{ end }}
-        <div class="post-content" id="post-content">
+        <div class="post-content{{ if eq .Section "posts" }} post-content--spacious{{ end }}" id="post-content">
           {{ .Page.Content }}
         </div>
 
@@ -210,4 +210,12 @@
   </div>
   {{ end }}
 </section>
+{{ end }}
+
+{{ define "scripts" }}
+  {{ if .HasShortcode "tabs" }}
+    {{ with resources.Get "scripts/pages/post-tabs.js" | fingerprint }}
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+    {{ end }}
+  {{ end }}
 {{ end }}

@@ -1,0 +1,6 @@
+{{- if and .Parent (eq .Parent.Name "tabs") -}}
+  {{- $content := .Page.RenderString (dict "display" "block") .Inner -}}
+  {{- .Parent.Scratch.Add "tabs" (slice (dict "name" (.Get "name") "content" $content)) -}}
+{{- else -}}
+  {{- errorf "tab은 tabs 내부에서 사용해야 합니다 (%s)" .Position -}}
+{{- end -}}

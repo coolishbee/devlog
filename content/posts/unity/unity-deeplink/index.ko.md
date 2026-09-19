@@ -68,22 +68,23 @@ proj.SetBuildProperty(targetGuid, "CODE_SIGN_ENTITLEMENTS", "Unity-iPhone.entitl
 기존의 직접 조작 방식은 Unity가 제공하는 ProjectCapabilityManager 기반으로 교체했다.
 
 
-#### 기존 방식: 직접 조작
-
+{{< tabs id="entitlements-methods" label="entitlements 설정 방식 비교" >}}
+{{< tab name="기존 방식: 직접 조작" >}}
 
 - entitlements 파일을 직접 읽고 쓴다.
 - associated-domains 중복을 직접 확인한다.
 - CODE_SIGN_ENTITLEMENTS와 pbxproj를 직접 수정한다.
 
-
-#### 개선 방식: ProjectCapabilityManager
-
+{{< /tab >}}
+{{< tab name="개선 방식: ProjectCapabilityManager" >}}
 
 - entitlements 파일을 생성·관리한다.
 - 중복 도메인을 방지한다.
 - CODE_SIGN_ENTITLEMENTS와 Capability 등록을 함께 처리한다.
 - 수동으로 유지해야 할 코드량을 줄인다.
 
+{{< /tab >}}
+{{< /tabs >}}
 
 {{% alert type="info" %}}
 **확인 기준**

@@ -213,8 +213,8 @@ configure가 시작될 때 가장 먼저 처리되므로, `-D`로 커맨드라�
 `CMakeLists.txt`에서는 오히려 불필요한 설정을 제거했다.
 
 
-### 변경 전: 시도 2
-
+{{< tabs id="cmake-changes" label="CMake 설정 변경 비교" >}}
+{{< tab name="변경 전: 시도 2" >}}
 
 **CMakeLists.txt**
 
@@ -231,9 +231,8 @@ target_link_options(EmulatorDetector PRIVATE
 )
 ```
 
-
-### 변경 후
-
+{{< /tab >}}
+{{< tab name="변경 후" >}}
 
 **CMakeLists.txt**
 
@@ -244,6 +243,8 @@ target_link_options(EmulatorDetector PRIVATE
 )
 ```
 
+{{< /tab >}}
+{{< /tabs >}}
 
 링커 플래그 두 줄은 남겼다. 툴체인 스위치를 켜면 이 두 줄이 없어도 결과는 같다.
 

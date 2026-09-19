@@ -1,0 +1,18 @@
+{{- $id := printf "post-tabs-%s" (.Get "id") -}}
+{{- $inner := .Inner -}}
+{{- $tabs := .Scratch.Get "tabs" -}}
+<div class="post-tabs" data-post-tabs>
+  <div class="post-tabs__list" role="tablist" aria-label="{{ .Get "label" }}">
+    {{- range $index, $tab := $tabs }}
+    <button class="post-tabs__tab" type="button" role="tab"
+      id="{{ $id }}-tab-{{ $index }}" aria-controls="{{ $id }}-panel-{{ $index }}"
+      aria-selected="{{ if eq $index 0 }}true{{ else }}false{{ end }}"
+      tabindex="{{ if eq $index 0 }}0{{ else }}-1{{ end }}">{{ $tab.name }}</button>
+    {{- end }}
+  </div>
+  {{- range $index, $tab := $tabs }}
+  <div class="post-tabs__panel" role="tabpanel" tabindex="0"
+    id="{{ $id }}-panel-{{ $index }}" aria-labelledby="{{ $id }}-tab-{{ $index }}"
+    {{ if ne $index 0 }}hidden{{ end }}>{{ $tab.content }}</div>
+  {{- end }}
+</div>
