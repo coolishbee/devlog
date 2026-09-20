@@ -202,6 +202,11 @@
   }
 }
 
+// 회사명·근무기간과 포지션명 사이에 여백을 둡니다.
+.experiences-section .experience-entry-heading + .positions {
+  padding-top: 1.5rem;
+}
+
 .experiences-section .positions .designation {
   font-weight: 700;
   margin-bottom: 1rem;
@@ -232,4 +237,12 @@
   line-height: 1.5;
   white-space: nowrap;
   vertical-align: middle;
+}
+
+// 긴 프로젝트 설명 배지는 화면 너비에 맞춰 줄바꿈합니다.
+.experience-quote .experience-tech-badge--wrap {
+  max-width: 100%;
+  white-space: normal;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
