@@ -1,6 +1,6 @@
 # 저장소 하위 경로를 포함한 실제 배포 주소입니다.
 baseURL: https://coolishbee.github.io/devlog/
-title: 천현철의 개발 블로그
+title: "James's Devlog"
 locale: ko-KR
 timeZone: Asia/Seoul
 defaultContentLanguage: ko
@@ -23,7 +23,7 @@ languages:
   ko:
     locale: ko-KR
     label: 한국어
-    title: 천현철의 개발 블로그
+    title: "James's Devlog"
     weight: 1
 
 markup:

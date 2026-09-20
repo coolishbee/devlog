@@ -8,7 +8,7 @@ customMenus:
     hideFromNavbar: false
     showOnFooter: false
 openGraph:
-  title: 천현철의 개발 블로그
+  title: "James's Devlog"
   type: website
   description: 소프트웨어 엔지니어 천현철의 포트폴리오와 개발 블로그입니다.
   image: images/author/profile.png

@@ -1,6 +1,7 @@
 name: 천현철
 nickname: 천현철
-greeting: Hello, I am
+greeting: 안녕하세요, 개발자
+greetingSuffix: 입니다.
 image: images/author/profile.png
 contactInfo:
   email: chc3484@gmail.com
